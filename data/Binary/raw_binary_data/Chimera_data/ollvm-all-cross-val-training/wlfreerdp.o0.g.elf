@@ -1,0 +1,7825 @@
+(lp0
+ccopy_reg
+_reconstructor
+p1
+(cbasic_block
+BasicBlockSeq
+p2
+c__builtin__
+object
+p3
+Ntp4
+Rp5
+(dp6
+S'index'
+p7
+I0
+sS'opcodes'
+p8
+(lp9
+S'xor REG REG;'
+p10
+aS'mov REG REG;'
+p11
+aS'pop REG;'
+p12
+aS'mov REG REG;'
+p13
+aS'and REG IMM;'
+p14
+aS'push REG;'
+p15
+aS'push REG;'
+p16
+aS'mov REG IMM;'
+p17
+aS'mov REG IMM;'
+p18
+aS'mov REG IMM;'
+p19
+aS'call NEAR;'
+p20
+aS'hlt;'
+p21
+aS';'
+p22
+aS'mov REG IMM;'
+p23
+aS'push REG;'
+p24
+aS'sub REG IMM;'
+p25
+aS'cmp REG IMM;'
+p26
+aS'mov REG REG;'
+p27
+aS'jbe NEAR;'
+p28
+asS'annotated'
+p29
+NsS'start_addr'
+p30
+L4200816L
+sS'h_last'
+p31
+L4200883L
+sS'func'
+p32
+S'_start'
+p33
+sS'end_addr'
+p34
+L4200884L
+sS'end_mnem'
+p35
+S'jbe'
+p36
+sbag1
+(g2
+g3
+Ntp37
+Rp38
+(dp39
+g7
+I1
+sg8
+(lp40
+S'mov REG IMM;'
+p41
+aS'test REG REG;'
+p42
+aS'jz NEAR;'
+p43
+asg29
+Nsg30
+L4200885L
+sg31
+L4200893L
+sg32
+S'deregister_tm_clones'
+p44
+sg34
+L4200894L
+sg35
+S'jz'
+p45
+sbag1
+(g2
+g3
+Ntp46
+Rp47
+(dp48
+g7
+I2
+sg8
+(lp49
+S'pop REG;'
+p50
+aS'mov REG IMM;'
+p51
+aS'jmp REG;'
+p52
+asg29
+Nsg30
+L4200895L
+sg31
+L4200901L
+sg32
+S'deregister_tm_clones'
+p53
+sg34
+L4200902L
+sg35
+S'jmp'
+p54
+sbag1
+(g2
+g3
+Ntp55
+Rp56
+(dp57
+g7
+I3
+sg8
+(lp58
+S'pop REG;'
+p59
+aS'retn;'
+p60
+asg29
+Nsg30
+L4200912L
+sg31
+L4200913L
+sg32
+S'deregister_tm_clones'
+p61
+sg34
+L4200913L
+sg35
+S'retn'
+p62
+sbag1
+(g2
+g3
+Ntp63
+Rp64
+(dp65
+g7
+I4
+sg8
+(lp66
+S'mov REG IMM;'
+p67
+aS'push REG;'
+p68
+aS'sub REG IMM;'
+p69
+aS'sar REG IMM;'
+p70
+aS'mov REG REG;'
+p71
+aS'mov REG REG;'
+p72
+aS'shr REG IMM;'
+p73
+aS'add REG REG;'
+p74
+aS'sar REG IMM;'
+p75
+aS'jz NEAR;'
+p76
+asg29
+Nsg30
+L4200928L
+sg31
+L4200961L
+sg32
+S'register_tm_clones'
+p77
+sg34
+L4200962L
+sg35
+S'jz'
+p78
+sbag1
+(g2
+g3
+Ntp79
+Rp80
+(dp81
+g7
+I5
+sg8
+(lp82
+S'mov REG IMM;'
+p83
+aS'test REG REG;'
+p84
+aS'jz NEAR;'
+p85
+asg29
+Nsg30
+L4200963L
+sg31
+L4200971L
+sg32
+S'register_tm_clones'
+p86
+sg34
+L4200972L
+sg35
+S'jz'
+p87
+sbag1
+(g2
+g3
+Ntp88
+Rp89
+(dp90
+g7
+I6
+sg8
+(lp91
+S'pop REG;'
+p92
+aS'mov REG IMM;'
+p93
+aS'jmp REG;'
+p94
+asg29
+Nsg30
+L4200973L
+sg31
+L4200979L
+sg32
+S'register_tm_clones'
+p95
+sg34
+L4200980L
+sg35
+S'jmp'
+p96
+sbag1
+(g2
+g3
+Ntp97
+Rp98
+(dp99
+g7
+I7
+sg8
+(lp100
+S'pop REG;'
+p101
+aS'retn;'
+p102
+asg29
+Nsg30
+L4200984L
+sg31
+L4200985L
+sg32
+S'register_tm_clones'
+p103
+sg34
+L4200985L
+sg35
+S'retn'
+p104
+sbag1
+(g2
+g3
+Ntp105
+Rp106
+(dp107
+g7
+I8
+sg8
+(lp108
+S'cmp MEM IMM;'
+p109
+aS'jnz NEAR;'
+p110
+asg29
+Nsg30
+L4200992L
+sg31
+L4200999L
+sg32
+S'__do_global_dtors_aux'
+p111
+sg34
+L4201000L
+sg35
+S'jnz'
+p112
+sbag1
+(g2
+g3
+Ntp113
+Rp114
+(dp115
+g7
+I9
+sg8
+(lp116
+S'push REG;'
+p117
+aS'mov REG REG;'
+p118
+aS'call NEAR;'
+p119
+aS'pop REG;'
+p120
+aS'mov MEM IMM;'
+p121
+aS'retn;'
+p122
+asg29
+Nsg30
+L4201001L
+sg31
+L4201018L
+sg32
+S'__do_global_dtors_aux'
+p123
+sg34
+L4201019L
+sg35
+S'retn'
+p124
+sbag1
+(g2
+g3
+Ntp125
+Rp126
+(dp127
+g7
+I10
+sg8
+(lp128
+S'mov REG IMM;'
+p129
+aS'cmp PHRASE IMM;'
+p130
+aS'jnz NEAR;'
+p131
+asg29
+Nsg30
+L4201024L
+sg31
+L4201033L
+sg32
+S'frame_dummy'
+p132
+sg34
+L4201034L
+sg35
+S'jnz'
+p133
+sbag1
+(g2
+g3
+Ntp134
+Rp135
+(dp136
+g7
+I11
+sg8
+(lp137
+S'jmp NEAR;'
+p138
+asg29
+Nsg30
+L4201035L
+sg31
+L4201035L
+sg32
+S'frame_dummy'
+p139
+sg34
+L4201036L
+sg35
+S'jmp'
+p140
+sbag1
+(g2
+g3
+Ntp141
+Rp142
+(dp143
+g7
+I12
+sg8
+(lp144
+S'mov REG IMM;'
+p145
+aS'test REG REG;'
+p146
+aS'jz NEAR;'
+p147
+asg29
+Nsg30
+L4201040L
+sg31
+L4201048L
+sg32
+S'frame_dummy'
+p148
+sg34
+L4201049L
+sg35
+S'jz'
+p149
+sbag1
+(g2
+g3
+Ntp150
+Rp151
+(dp152
+g7
+I13
+sg8
+(lp153
+S'push REG;'
+p154
+aS'mov REG REG;'
+p155
+aS'call REG;'
+p156
+aS'pop REG;'
+p157
+aS'jmp NEAR;'
+p158
+asg29
+Nsg30
+L4201050L
+sg31
+L4201057L
+sg32
+S'frame_dummy'
+p159
+sg34
+L4201061L
+sg35
+S'jmp'
+p160
+sbag1
+(g2
+g3
+Ntp161
+Rp162
+(dp163
+g7
+I14
+sg8
+(lp164
+S'push REG;'
+p165
+aS'mov REG REG;'
+p166
+aS'sub REG IMM;'
+p167
+aS'lea REG DISPL;'
+p168
+aS'mov DISPL IMM;'
+p169
+aS'mov DISPL REG;'
+p170
+aS'mov DISPL REG;'
+p171
+aS'mov DISPL IMM;'
+p172
+aS'mov REG REG;'
+p173
+aS'call NEAR;'
+p174
+aS'lea REG DISPL;'
+p175
+aS'mov DISPL REG;'
+p176
+aS'call NEAR;'
+p177
+aS'mov DISPL REG;'
+p178
+aS'cmp DISPL IMM;'
+p179
+aS'jnz NEAR;'
+p180
+asg29
+Nsg30
+L4201072L
+sg31
+L4201137L
+sg32
+S'main'
+p181
+sg34
+L4201142L
+sg35
+S'jnz'
+p182
+sbag1
+(g2
+g3
+Ntp183
+Rp184
+(dp185
+g7
+I15
+sg8
+(lp186
+S'jmp NEAR;'
+p187
+asg29
+Nsg30
+L4201143L
+sg31
+L4201143L
+sg32
+S'main'
+p188
+sg34
+L4201147L
+sg35
+S'jmp'
+p189
+sbag1
+(g2
+g3
+Ntp190
+Rp191
+(dp192
+g7
+I16
+sg8
+(lp193
+S'xor REG REG;'
+p194
+aS'mov REG DISPL;'
+p195
+aS'mov REG DISPL;'
+p196
+aS'mov REG DISPL;'
+p197
+aS'mov REG DISPL;'
+p198
+aS'call NEAR;'
+p199
+aS'mov DISPL REG;'
+p200
+aS'mov REG DISPL;'
+p201
+aS'mov REG DISPL;'
+p202
+aS'mov REG DISPL;'
+p203
+aS'mov REG DISPL;'
+p204
+aS'mov REG DISPL;'
+p205
+aS'call NEAR;'
+p206
+aS'mov DISPL REG;'
+p207
+aS'cmp DISPL IMM;'
+p208
+aS'jz NEAR;'
+p209
+asg29
+Nsg30
+L4201148L
+sg31
+L4201212L
+sg32
+S'main'
+p210
+sg34
+L4201217L
+sg35
+S'jz'
+p211
+sbag1
+(g2
+g3
+Ntp212
+Rp213
+(dp214
+g7
+I17
+sg8
+(lp215
+S'mov DISPL IMM;'
+p216
+aS'jmp NEAR;'
+p217
+asg29
+Nsg30
+L4201218L
+sg31
+L4201225L
+sg32
+S'main'
+p218
+sg34
+L4201229L
+sg35
+S'jmp'
+p219
+sbag1
+(g2
+g3
+Ntp220
+Rp221
+(dp222
+g7
+I18
+sg8
+(lp223
+S'mov REG DISPL;'
+p224
+aS'call NEAR;'
+p225
+aS'cmp REG IMM;'
+p226
+aS'jz NEAR;'
+p227
+asg29
+Nsg30
+L4201230L
+sg31
+L4201244L
+sg32
+S'main'
+p228
+sg34
+L4201249L
+sg35
+S'jz'
+p229
+sbag1
+(g2
+g3
+Ntp230
+Rp231
+(dp232
+g7
+I19
+sg8
+(lp233
+S'jmp NEAR;'
+p234
+asg29
+Nsg30
+L4201250L
+sg31
+L4201250L
+sg32
+S'main'
+p235
+sg34
+L4201254L
+sg35
+S'jmp'
+p236
+sbag1
+(g2
+g3
+Ntp237
+Rp238
+(dp239
+g7
+I20
+sg8
+(lp240
+S'mov REG DISPL;'
+p241
+aS'mov REG PHRASE;'
+p242
+aS'call NEAR;'
+p243
+aS'mov DISPL REG;'
+p244
+aS'mov REG DISPL;'
+p245
+aS'call NEAR;'
+p246
+aS'cmp REG IMM;'
+p247
+aS'jz NEAR;'
+p248
+asg29
+Nsg30
+L4201255L
+sg31
+L4201284L
+sg32
+S'main'
+p249
+sg34
+L4201289L
+sg35
+S'jz'
+p250
+sbag1
+(g2
+g3
+Ntp251
+Rp252
+(dp253
+g7
+I21
+sg8
+(lp254
+S'mov DISPL IMM;'
+p255
+aS'jmp NEAR;'
+p256
+asg29
+Nsg30
+L4201290L
+sg31
+L4201297L
+sg32
+S'main'
+p257
+sg34
+L4201301L
+sg35
+S'jmp'
+p258
+sbag1
+(g2
+g3
+Ntp259
+Rp260
+(dp261
+g7
+I22
+sg8
+(lp262
+S'mov REG DISPL;'
+p263
+aS'call NEAR;'
+p264
+aS'mov REG DISPL;'
+p265
+aS'mov DISPL REG;'
+p266
+aS'mov REG DISPL;'
+p267
+aS'add REG IMM;'
+p268
+aS'pop REG;'
+p269
+aS'retn;'
+p270
+asg29
+Nsg30
+L4201302L
+sg31
+L4201325L
+sg32
+S'main'
+p271
+sg34
+L4201325L
+sg35
+S'retn'
+p272
+sbag1
+(g2
+g3
+Ntp273
+Rp274
+(dp275
+g7
+I23
+sg8
+(lp276
+S'push REG;'
+p277
+aS'mov REG REG;'
+p278
+aS'push REG;'
+p279
+aS'sub REG IMM;'
+p280
+aS'xor REG REG;'
+p281
+aS'lea REG MEM;'
+p282
+aS'lea REG MEM;'
+p283
+aS'lea REG MEM;'
+p284
+aS'lea REG MEM;'
+p285
+aS'lea REG MEM;'
+p286
+aS'lea REG MEM;'
+p287
+aS'mov REG IMM;'
+p288
+aS'mov REG REG;'
+p289
+aS'mov DISPL REG;'
+p290
+aS'mov REG DISPL;'
+p291
+aS'mov DISPL REG;'
+p292
+aS'mov REG REG;'
+p293
+aS'mov DISPL REG;'
+p294
+aS'mov REG REG;'
+p295
+aS'mov DISPL REG;'
+p296
+aS'mov DISPL REG;'
+p297
+aS'mov DISPL REG;'
+p298
+aS'mov DISPL REG;'
+p299
+aS'mov DISPL REG;'
+p300
+aS'call NEAR;'
+p301
+aS'mov REG DISPL;'
+p302
+aS'mov DISPL IMM;'
+p303
+aS'mov REG DISPL;'
+p304
+aS'mov PHRASE IMM;'
+p305
+aS'mov REG DISPL;'
+p306
+aS'mov REG DISPL;'
+p307
+aS'mov DISPL REG;'
+p308
+aS'mov REG DISPL;'
+p309
+aS'mov REG DISPL;'
+p310
+aS'mov DISPL REG;'
+p311
+aS'mov REG DISPL;'
+p312
+aS'mov DISPL IMM;'
+p313
+aS'mov REG DISPL;'
+p314
+aS'mov REG DISPL;'
+p315
+aS'mov DISPL REG;'
+p316
+aS'mov REG DISPL;'
+p317
+aS'mov REG DISPL;'
+p318
+aS'mov DISPL REG;'
+p319
+aS'mov REG DISPL;'
+p320
+aS'mov REG DISPL;'
+p321
+aS'mov DISPL REG;'
+p322
+aS'mov REG DISPL;'
+p323
+aS'mov REG DISPL;'
+p324
+aS'mov DISPL REG;'
+p325
+aS'mov REG DISPL;'
+p326
+aS'add REG IMM;'
+p327
+aS'pop REG;'
+p328
+aS'pop REG;'
+p329
+aS'retn;'
+p330
+asg29
+Nsg30
+L4201328L
+sg31
+L4201548L
+sg32
+S'RdpClientEntry'
+p331
+sg34
+L4201548L
+sg35
+S'retn'
+p332
+sbag1
+(g2
+g3
+Ntp333
+Rp334
+(dp335
+g7
+I24
+sg8
+(lp336
+S'push REG;'
+p337
+aS'mov REG REG;'
+p338
+aS'sub REG IMM;'
+p339
+aS'mov DISPL REG;'
+p340
+aS'cmp DISPL IMM;'
+p341
+aS'jnz NEAR;'
+p342
+asg29
+Nsg30
+L4201552L
+sg31
+L4201575L
+sg32
+S'wlfreerdp_run'
+p343
+sg34
+L4201580L
+sg35
+S'jnz'
+p344
+sbag1
+(g2
+g3
+Ntp345
+Rp346
+(dp347
+g7
+I25
+sg8
+(lp348
+S'mov DISPL IMM;'
+p349
+aS'jmp NEAR;'
+p350
+asg29
+Nsg30
+L4201581L
+sg31
+L4201588L
+sg32
+S'wlfreerdp_run'
+p351
+sg34
+L4201592L
+sg35
+S'jmp'
+p352
+sbag1
+(g2
+g3
+Ntp353
+Rp354
+(dp355
+g7
+I26
+sg8
+(lp356
+S'mov REG DISPL;'
+p357
+aS'mov REG PHRASE;'
+p358
+aS'mov DISPL REG;'
+p359
+aS'cmp DISPL IMM;'
+p360
+aS'jnz NEAR;'
+p361
+asg29
+Nsg30
+L4201593L
+sg31
+L4201612L
+sg32
+S'wlfreerdp_run'
+p362
+sg34
+L4201617L
+sg35
+S'jnz'
+p363
+sbag1
+(g2
+g3
+Ntp364
+Rp365
+(dp366
+g7
+I27
+sg8
+(lp367
+S'mov DISPL IMM;'
+p368
+aS'jmp NEAR;'
+p369
+asg29
+Nsg30
+L4201618L
+sg31
+L4201625L
+sg32
+S'wlfreerdp_run'
+p370
+sg34
+L4201629L
+sg35
+S'jmp'
+p371
+sbag1
+(g2
+g3
+Ntp372
+Rp373
+(dp374
+g7
+I28
+sg8
+(lp375
+S'mov REG DISPL;'
+p376
+aS'call NEAR;'
+p377
+aS'cmp REG IMM;'
+p378
+aS'jnz NEAR;'
+p379
+asg29
+Nsg30
+L4201630L
+sg31
+L4201644L
+sg32
+S'wlfreerdp_run'
+p380
+sg34
+L4201649L
+sg35
+S'jnz'
+p381
+sbag1
+(g2
+g3
+Ntp382
+Rp383
+(dp384
+g7
+I29
+sg8
+(lp385
+S'lea REG MEM;'
+p386
+aS'mov REG IMM;'
+p387
+aS'call NEAR;'
+p388
+aS'mov DISPL IMM;'
+p389
+aS'mov DISPL REG;'
+p390
+aS'jmp NEAR;'
+p391
+asg29
+Nsg30
+L4201650L
+sg31
+L4201677L
+sg32
+S'wlfreerdp_run'
+p392
+sg34
+L4201681L
+sg35
+S'jmp'
+p393
+sbag1
+(g2
+g3
+Ntp394
+Rp395
+(dp396
+g7
+I30
+sg8
+(lp397
+S'mov REG DISPL;'
+p398
+aS'mov REG DISPL;'
+p399
+aS'mov REG DISPL;'
+p400
+aS'call NEAR;'
+p401
+aS'mov DISPL REG;'
+p402
+aS'mov REG DISPL;'
+p403
+aS'call NEAR;'
+p404
+aS'cmp REG IMM;'
+p405
+aS'setnz REG;'
+p406
+aS'xor REG IMM;'
+p407
+aS'test REG IMM;'
+p408
+aS'jnz NEAR;'
+p409
+asg29
+Nsg30
+L4201682L
+sg31
+L4201731L
+sg32
+S'wlfreerdp_run'
+p410
+sg34
+L4201736L
+sg35
+S'jnz'
+p411
+sbag1
+(g2
+g3
+Ntp412
+Rp413
+(dp414
+g7
+I31
+sg8
+(lp415
+S'jmp NEAR;'
+p416
+asg29
+Nsg30
+L4201737L
+sg31
+L4201737L
+sg32
+S'wlfreerdp_run'
+p417
+sg34
+L4201741L
+sg35
+S'jmp'
+p418
+sbag1
+(g2
+g3
+Ntp419
+Rp420
+(dp421
+g7
+I32
+sg8
+(lp422
+S'mov REG IMM;'
+p423
+aS'lea REG DISPL;'
+p424
+aS'mov REG DISPL;'
+p425
+aS'mov REG DISPL;'
+p426
+aS'mov DISPL REG;'
+p427
+aS'mov REG DISPL;'
+p428
+aS'mov REG PHRASE;'
+p429
+aS'add REG IMM;'
+p430
+aS'mov REG REG;'
+p431
+aS'call NEAR;'
+p432
+aS'mov DISPL REG;'
+p433
+aS'cmp DISPL IMM;'
+p434
+aS'jnz NEAR;'
+p435
+asg29
+Nsg30
+L4201742L
+sg31
+L4201803L
+sg32
+S'wlfreerdp_run'
+p436
+sg34
+L4201808L
+sg35
+S'jnz'
+p437
+sbag1
+(g2
+g3
+Ntp438
+Rp439
+(dp440
+g7
+I33
+sg8
+(lp441
+S'lea REG MEM;'
+p442
+aS'mov REG IMM;'
+p443
+aS'call NEAR;'
+p444
+aS'mov DISPL REG;'
+p445
+aS'jmp NEAR;'
+p446
+asg29
+Nsg30
+L4201809L
+sg31
+L4201829L
+sg32
+S'wlfreerdp_run'
+p447
+sg34
+L4201833L
+sg35
+S'jmp'
+p448
+sbag1
+(g2
+g3
+Ntp449
+Rp450
+(dp451
+g7
+I34
+sg8
+(lp452
+S'xor REG REG;'
+p453
+aS'mov REG IMM;'
+p454
+aS'lea REG DISPL;'
+p455
+aS'mov REG DISPL;'
+p456
+aS'add REG IMM;'
+p457
+aS'mov REG REG;'
+p458
+aS'call NEAR;'
+p459
+aS'mov REG IMM;'
+p460
+aS'mov DISPL REG;'
+p461
+aS'cmp REG DISPL;'
+p462
+aS'jnz NEAR;'
+p463
+asg29
+Nsg30
+L4201834L
+sg31
+L4201880L
+sg32
+S'wlfreerdp_run'
+p464
+sg34
+L4201885L
+sg35
+S'jnz'
+p465
+sbag1
+(g2
+g3
+Ntp466
+Rp467
+(dp468
+g7
+I35
+sg8
+(lp469
+S'lea REG MEM;'
+p470
+aS'lea REG MEM;'
+p471
+aS'mov REG IMM;'
+p472
+aS'call NEAR;'
+p473
+aS'mov DISPL REG;'
+p474
+aS'jmp NEAR;'
+p475
+asg29
+Nsg30
+L4201886L
+sg31
+L4201913L
+sg32
+S'wlfreerdp_run'
+p476
+sg34
+L4201917L
+sg35
+S'jmp'
+p477
+sbag1
+(g2
+g3
+Ntp478
+Rp479
+(dp480
+g7
+I36
+sg8
+(lp481
+S'mov REG DISPL;'
+p482
+aS'mov REG DISPL;'
+p483
+aS'mov REG DISPL;'
+p484
+aS'call NEAR;'
+p485
+aS'cmp REG IMM;'
+p486
+aS'jnz NEAR;'
+p487
+asg29
+Nsg30
+L4201918L
+sg31
+L4201943L
+sg32
+S'wlfreerdp_run'
+p488
+sg34
+L4201948L
+sg35
+S'jnz'
+p489
+sbag1
+(g2
+g3
+Ntp490
+Rp491
+(dp492
+g7
+I37
+sg8
+(lp493
+S'lea REG MEM;'
+p494
+aS'mov REG IMM;'
+p495
+aS'call NEAR;'
+p496
+aS'mov DISPL REG;'
+p497
+aS'jmp NEAR;'
+p498
+asg29
+Nsg30
+L4201949L
+sg31
+L4201969L
+sg32
+S'wlfreerdp_run'
+p499
+sg34
+L4201973L
+sg35
+S'jmp'
+p500
+sbag1
+(g2
+g3
+Ntp501
+Rp502
+(dp503
+g7
+I38
+sg8
+(lp504
+S'mov REG DISPL;'
+p505
+aS'mov REG PHRASE;'
+p506
+aS'call NEAR;'
+p507
+aS'cmp REG IMM;'
+p508
+aS'jz NEAR;'
+p509
+asg29
+Nsg30
+L4201974L
+sg31
+L4201991L
+sg32
+S'wlfreerdp_run'
+p510
+sg34
+L4201996L
+sg35
+S'jz'
+p511
+sbag1
+(g2
+g3
+Ntp512
+Rp513
+(dp514
+g7
+I39
+sg8
+(lp515
+S'lea REG MEM;'
+p516
+aS'mov REG IMM;'
+p517
+aS'call NEAR;'
+p518
+aS'mov DISPL REG;'
+p519
+aS'jmp NEAR;'
+p520
+asg29
+Nsg30
+L4201997L
+sg31
+L4202017L
+sg32
+S'wlfreerdp_run'
+p521
+sg34
+L4202021L
+sg35
+S'jmp'
+p522
+sbag1
+(g2
+g3
+Ntp523
+Rp524
+(dp525
+g7
+I40
+sg8
+(lp526
+S'jmp NEAR;'
+p527
+asg29
+Nsg30
+L4202022L
+sg31
+L4202022L
+sg32
+S'wlfreerdp_run'
+p528
+sg34
+L4202026L
+sg35
+S'jmp'
+p529
+sbag1
+(g2
+g3
+Ntp530
+Rp531
+(dp532
+g7
+I41
+sg8
+(lp533
+S'mov REG DISPL;'
+p534
+aS'call NEAR;'
+p535
+aS'mov DISPL IMM;'
+p536
+aS'mov DISPL REG;'
+p537
+aS'mov REG DISPL;'
+p538
+aS'add REG IMM;'
+p539
+aS'pop REG;'
+p540
+aS'retn;'
+p541
+asg29
+Nsg30
+L4202027L
+sg31
+L4202060L
+sg32
+S'wlfreerdp_run'
+p542
+sg34
+L4202060L
+sg35
+S'retn'
+p543
+sbag1
+(g2
+g3
+Ntp544
+Rp545
+(dp546
+g7
+I42
+sg8
+(lp547
+S'push REG;'
+p548
+aS'mov REG REG;'
+p549
+aS'sub REG IMM;'
+p550
+aS'mov REG IMM;'
+p551
+aS'mov DISPL REG;'
+p552
+aS'mov DISPL REG;'
+p553
+aS'mov REG DISPL;'
+p554
+aS'mov REG REG;'
+p555
+aS'call NEAR;'
+p556
+aS'cmp REG IMM;'
+p557
+aS'jge NEAR;'
+p558
+asg29
+Nsg30
+L4202064L
+sg31
+L4202101L
+sg32
+S'handle_uwac_events'
+p559
+sg34
+L4202106L
+sg35
+S'jge'
+p560
+sbag1
+(g2
+g3
+Ntp561
+Rp562
+(dp563
+g7
+I43
+sg8
+(lp564
+S'mov DISPL IMM;'
+p565
+aS'jmp NEAR;'
+p566
+asg29
+Nsg30
+L4202107L
+sg31
+L4202114L
+sg32
+S'handle_uwac_events'
+p567
+sg34
+L4202118L
+sg35
+S'jmp'
+p568
+sbag1
+(g2
+g3
+Ntp569
+Rp570
+(dp571
+g7
+I44
+sg8
+(lp572
+S'jmp NEAR;'
+p573
+asg29
+Nsg30
+L4202119L
+sg31
+L4202119L
+sg32
+S'handle_uwac_events'
+p574
+sg34
+L4202123L
+sg35
+S'jmp'
+p575
+sbag1
+(g2
+g3
+Ntp576
+Rp577
+(dp578
+g7
+I45
+sg8
+(lp579
+S'mov REG DISPL;'
+p580
+aS'call NEAR;'
+p581
+aS'test REG IMM;'
+p582
+aS'jnz NEAR;'
+p583
+asg29
+Nsg30
+L4202124L
+sg31
+L4202135L
+sg32
+S'handle_uwac_events'
+p584
+sg34
+L4202140L
+sg35
+S'jnz'
+p585
+sbag1
+(g2
+g3
+Ntp586
+Rp587
+(dp588
+g7
+I46
+sg8
+(lp589
+S'jmp NEAR;'
+p590
+asg29
+Nsg30
+L4202141L
+sg31
+L4202141L
+sg32
+S'handle_uwac_events'
+p591
+sg34
+L4202145L
+sg35
+S'jmp'
+p592
+sbag1
+(g2
+g3
+Ntp593
+Rp594
+(dp595
+g7
+I47
+sg8
+(lp596
+S'lea REG DISPL;'
+p597
+aS'mov REG DISPL;'
+p598
+aS'call NEAR;'
+p599
+aS'cmp REG IMM;'
+p600
+aS'jz NEAR;'
+p601
+asg29
+Nsg30
+L4202146L
+sg31
+L4202164L
+sg32
+S'handle_uwac_events'
+p602
+sg34
+L4202169L
+sg35
+S'jz'
+p603
+sbag1
+(g2
+g3
+Ntp604
+Rp605
+(dp606
+g7
+I48
+sg8
+(lp607
+S'mov DISPL IMM;'
+p608
+aS'jmp NEAR;'
+p609
+asg29
+Nsg30
+L4202170L
+sg31
+L4202177L
+sg32
+S'handle_uwac_events'
+p610
+sg34
+L4202181L
+sg35
+S'jmp'
+p611
+sbag1
+(g2
+g3
+Ntp612
+Rp613
+(dp614
+g7
+I49
+sg8
+(lp615
+S'mov REG DISPL;'
+p616
+aS'add REG IMM;'
+p617
+aS'mov REG REG;'
+p618
+aS'sub REG IMM;'
+p619
+aS'mov DISPL REG;'
+p620
+aS'mov DISPL REG;'
+p621
+aS'ja NEAR;'
+p622
+asg29
+Nsg30
+L4202182L
+sg31
+L4202200L
+sg32
+S'handle_uwac_events'
+p623
+sg34
+L4202205L
+sg35
+S'ja'
+p624
+sbag1
+(g2
+g3
+Ntp625
+Rp626
+(dp627
+g7
+I50
+sg8
+(lp628
+S'lea REG MEM;'
+p629
+aS'mov REG DISPL;'
+p630
+aS'movsxd REG PHRASE;'
+p631
+aS'add REG REG;'
+p632
+aS'jmp REG;'
+p633
+asg29
+Nsg30
+L4202206L
+sg31
+L4202224L
+sg32
+S'handle_uwac_events'
+p634
+sg34
+L4202225L
+sg35
+S'jmp'
+p635
+sbag1
+(g2
+g3
+Ntp636
+Rp637
+(dp638
+g7
+I51
+sg8
+(lp639
+S'cmp DISPL IMM;'
+p640
+aS'jnz NEAR;'
+p641
+asg29
+Nsg30
+L4202226L
+sg31
+L4202234L
+sg32
+S'handle_uwac_events'
+p642
+sg34
+L4202239L
+sg35
+S'jnz'
+p643
+sbag1
+(g2
+g3
+Ntp644
+Rp645
+(dp646
+g7
+I52
+sg8
+(lp647
+S'jmp NEAR;'
+p648
+asg29
+Nsg30
+L4202240L
+sg31
+L4202240L
+sg32
+S'handle_uwac_events'
+p649
+sg34
+L4202244L
+sg35
+S'jmp'
+p650
+sbag1
+(g2
+g3
+Ntp651
+Rp652
+(dp653
+g7
+I53
+sg8
+(lp654
+S'mov REG DISPL;'
+p655
+aS'mov REG PHRASE;'
+p656
+aS'mov DISPL REG;'
+p657
+aS'mov REG DISPL;'
+p658
+aS'mov DISPL IMM;'
+p659
+aS'mov REG DISPL;'
+p660
+aS'cmp DISPL IMM;'
+p661
+aS'jz NEAR;'
+p662
+asg29
+Nsg30
+L4202245L
+sg31
+L4202284L
+sg32
+S'handle_uwac_events'
+p663
+sg34
+L4202289L
+sg35
+S'jz'
+p664
+sbag1
+(g2
+g3
+Ntp665
+Rp666
+(dp667
+g7
+I54
+sg8
+(lp668
+S'mov REG DISPL;'
+p669
+aS'mov REG PHRASE;'
+p670
+aS'call NEAR;'
+p671
+aS'cmp REG IMM;'
+p672
+aS'jnz NEAR;'
+p673
+asg29
+Nsg30
+L4202290L
+sg31
+L4202307L
+sg32
+S'handle_uwac_events'
+p674
+sg34
+L4202312L
+sg35
+S'jnz'
+p675
+sbag1
+(g2
+g3
+Ntp676
+Rp677
+(dp678
+g7
+I55
+sg8
+(lp679
+S'mov DISPL IMM;'
+p680
+aS'jmp NEAR;'
+p681
+asg29
+Nsg30
+L4202313L
+sg31
+L4202320L
+sg32
+S'handle_uwac_events'
+p682
+sg34
+L4202324L
+sg35
+S'jmp'
+p683
+sbag1
+(g2
+g3
+Ntp684
+Rp685
+(dp686
+g7
+I56
+sg8
+(lp687
+S'jmp NEAR;'
+p688
+asg29
+Nsg30
+L4202325L
+sg31
+L4202325L
+sg32
+S'handle_uwac_events'
+p689
+sg34
+L4202329L
+sg35
+S'jmp'
+p690
+sbag1
+(g2
+g3
+Ntp691
+Rp692
+(dp693
+g7
+I57
+sg8
+(lp694
+S'lea REG DISPL;'
+p695
+aS'mov REG DISPL;'
+p696
+aS'mov REG REG;'
+p697
+aS'call NEAR;'
+p698
+aS'cmp REG IMM;'
+p699
+aS'jnz NEAR;'
+p700
+asg29
+Nsg30
+L4202330L
+sg31
+L4202351L
+sg32
+S'handle_uwac_events'
+p701
+sg34
+L4202356L
+sg35
+S'jnz'
+p702
+sbag1
+(g2
+g3
+Ntp703
+Rp704
+(dp705
+g7
+I58
+sg8
+(lp706
+S'mov DISPL IMM;'
+p707
+aS'jmp NEAR;'
+p708
+asg29
+Nsg30
+L4202357L
+sg31
+L4202364L
+sg32
+S'handle_uwac_events'
+p709
+sg34
+L4202368L
+sg35
+S'jmp'
+p710
+sbag1
+(g2
+g3
+Ntp711
+Rp712
+(dp713
+g7
+I59
+sg8
+(lp714
+S'jmp NEAR;'
+p715
+asg29
+Nsg30
+L4202369L
+sg31
+L4202369L
+sg32
+S'handle_uwac_events'
+p716
+sg34
+L4202373L
+sg35
+S'jmp'
+p717
+sbag1
+(g2
+g3
+Ntp718
+Rp719
+(dp720
+g7
+I60
+sg8
+(lp721
+S'lea REG DISPL;'
+p722
+aS'mov REG DISPL;'
+p723
+aS'mov REG REG;'
+p724
+aS'call NEAR;'
+p725
+aS'cmp REG IMM;'
+p726
+aS'jnz NEAR;'
+p727
+asg29
+Nsg30
+L4202374L
+sg31
+L4202395L
+sg32
+S'handle_uwac_events'
+p728
+sg34
+L4202400L
+sg35
+S'jnz'
+p729
+sbag1
+(g2
+g3
+Ntp730
+Rp731
+(dp732
+g7
+I61
+sg8
+(lp733
+S'mov DISPL IMM;'
+p734
+aS'jmp NEAR;'
+p735
+asg29
+Nsg30
+L4202401L
+sg31
+L4202408L
+sg32
+S'handle_uwac_events'
+p736
+sg34
+L4202412L
+sg35
+S'jmp'
+p737
+sbag1
+(g2
+g3
+Ntp738
+Rp739
+(dp740
+g7
+I62
+sg8
+(lp741
+S'jmp NEAR;'
+p742
+asg29
+Nsg30
+L4202413L
+sg31
+L4202413L
+sg32
+S'handle_uwac_events'
+p743
+sg34
+L4202417L
+sg35
+S'jmp'
+p744
+sbag1
+(g2
+g3
+Ntp745
+Rp746
+(dp747
+g7
+I63
+sg8
+(lp748
+S'lea REG DISPL;'
+p749
+aS'mov REG DISPL;'
+p750
+aS'mov REG REG;'
+p751
+aS'call NEAR;'
+p752
+aS'cmp REG IMM;'
+p753
+aS'jnz NEAR;'
+p754
+asg29
+Nsg30
+L4202418L
+sg31
+L4202439L
+sg32
+S'handle_uwac_events'
+p755
+sg34
+L4202444L
+sg35
+S'jnz'
+p756
+sbag1
+(g2
+g3
+Ntp757
+Rp758
+(dp759
+g7
+I64
+sg8
+(lp760
+S'mov DISPL IMM;'
+p761
+aS'jmp NEAR;'
+p762
+asg29
+Nsg30
+L4202445L
+sg31
+L4202452L
+sg32
+S'handle_uwac_events'
+p763
+sg34
+L4202456L
+sg35
+S'jmp'
+p764
+sbag1
+(g2
+g3
+Ntp765
+Rp766
+(dp767
+g7
+I65
+sg8
+(lp768
+S'jmp NEAR;'
+p769
+asg29
+Nsg30
+L4202457L
+sg31
+L4202457L
+sg32
+S'handle_uwac_events'
+p770
+sg34
+L4202461L
+sg35
+S'jmp'
+p771
+sbag1
+(g2
+g3
+Ntp772
+Rp773
+(dp774
+g7
+I66
+sg8
+(lp775
+S'lea REG DISPL;'
+p776
+aS'mov REG DISPL;'
+p777
+aS'mov REG REG;'
+p778
+aS'call NEAR;'
+p779
+aS'cmp REG IMM;'
+p780
+aS'jnz NEAR;'
+p781
+asg29
+Nsg30
+L4202462L
+sg31
+L4202483L
+sg32
+S'handle_uwac_events'
+p782
+sg34
+L4202488L
+sg35
+S'jnz'
+p783
+sbag1
+(g2
+g3
+Ntp784
+Rp785
+(dp786
+g7
+I67
+sg8
+(lp787
+S'mov DISPL IMM;'
+p788
+aS'jmp NEAR;'
+p789
+asg29
+Nsg30
+L4202489L
+sg31
+L4202496L
+sg32
+S'handle_uwac_events'
+p790
+sg34
+L4202500L
+sg35
+S'jmp'
+p791
+sbag1
+(g2
+g3
+Ntp792
+Rp793
+(dp794
+g7
+I68
+sg8
+(lp795
+S'jmp NEAR;'
+p796
+asg29
+Nsg30
+L4202501L
+sg31
+L4202501L
+sg32
+S'handle_uwac_events'
+p797
+sg34
+L4202505L
+sg35
+S'jmp'
+p798
+sbag1
+(g2
+g3
+Ntp799
+Rp800
+(dp801
+g7
+I69
+sg8
+(lp802
+S'lea REG DISPL;'
+p803
+aS'mov REG DISPL;'
+p804
+aS'mov REG REG;'
+p805
+aS'call NEAR;'
+p806
+aS'cmp REG IMM;'
+p807
+aS'jnz NEAR;'
+p808
+asg29
+Nsg30
+L4202506L
+sg31
+L4202527L
+sg32
+S'handle_uwac_events'
+p809
+sg34
+L4202532L
+sg35
+S'jnz'
+p810
+sbag1
+(g2
+g3
+Ntp811
+Rp812
+(dp813
+g7
+I70
+sg8
+(lp814
+S'mov DISPL IMM;'
+p815
+aS'jmp NEAR;'
+p816
+asg29
+Nsg30
+L4202533L
+sg31
+L4202540L
+sg32
+S'handle_uwac_events'
+p817
+sg34
+L4202544L
+sg35
+S'jmp'
+p818
+sbag1
+(g2
+g3
+Ntp819
+Rp820
+(dp821
+g7
+I71
+sg8
+(lp822
+S'jmp NEAR;'
+p823
+asg29
+Nsg30
+L4202545L
+sg31
+L4202545L
+sg32
+S'handle_uwac_events'
+p824
+sg34
+L4202549L
+sg35
+S'jmp'
+p825
+sbag1
+(g2
+g3
+Ntp826
+Rp827
+(dp828
+g7
+I72
+sg8
+(lp829
+S'lea REG DISPL;'
+p830
+aS'mov REG DISPL;'
+p831
+aS'mov REG REG;'
+p832
+aS'call NEAR;'
+p833
+aS'cmp REG IMM;'
+p834
+aS'jnz NEAR;'
+p835
+asg29
+Nsg30
+L4202550L
+sg31
+L4202571L
+sg32
+S'handle_uwac_events'
+p836
+sg34
+L4202576L
+sg35
+S'jnz'
+p837
+sbag1
+(g2
+g3
+Ntp838
+Rp839
+(dp840
+g7
+I73
+sg8
+(lp841
+S'mov DISPL IMM;'
+p842
+aS'jmp NEAR;'
+p843
+asg29
+Nsg30
+L4202577L
+sg31
+L4202584L
+sg32
+S'handle_uwac_events'
+p844
+sg34
+L4202588L
+sg35
+S'jmp'
+p845
+sbag1
+(g2
+g3
+Ntp846
+Rp847
+(dp848
+g7
+I74
+sg8
+(lp849
+S'jmp NEAR;'
+p850
+asg29
+Nsg30
+L4202589L
+sg31
+L4202589L
+sg32
+S'handle_uwac_events'
+p851
+sg34
+L4202593L
+sg35
+S'jmp'
+p852
+sbag1
+(g2
+g3
+Ntp853
+Rp854
+(dp855
+g7
+I75
+sg8
+(lp856
+S'jmp NEAR;'
+p857
+asg29
+Nsg30
+L4202594L
+sg31
+L4202594L
+sg32
+S'handle_uwac_events'
+p858
+sg34
+L4202598L
+sg35
+S'jmp'
+p859
+sbag1
+(g2
+g3
+Ntp860
+Rp861
+(dp862
+g7
+I76
+sg8
+(lp863
+S'jmp NEAR;'
+p864
+asg29
+Nsg30
+L4202599L
+sg31
+L4202599L
+sg32
+S'handle_uwac_events'
+p865
+sg34
+L4202603L
+sg35
+S'jmp'
+p866
+sbag1
+(g2
+g3
+Ntp867
+Rp868
+(dp869
+g7
+I77
+sg8
+(lp870
+S'mov DISPL IMM;'
+p871
+aS'mov REG DISPL;'
+p872
+aS'add REG IMM;'
+p873
+aS'pop REG;'
+p874
+aS'retn;'
+p875
+asg29
+Nsg30
+L4202604L
+sg31
+L4202619L
+sg32
+S'handle_uwac_events'
+p876
+sg34
+L4202619L
+sg35
+S'retn'
+p877
+sbag1
+(g2
+g3
+Ntp878
+Rp879
+(dp880
+g7
+I78
+sg8
+(lp881
+S'push REG;'
+p882
+aS'mov REG REG;'
+p883
+aS'sub REG IMM;'
+p884
+aS'mov DISPL REG;'
+p885
+aS'mov REG DISPL;'
+p886
+aS'mov REG DISPL;'
+p887
+aS'mov DISPL REG;'
+p888
+aS'mov REG DISPL;'
+p889
+aS'mov REG DISPL;'
+p890
+aS'mov REG DISPL;'
+p891
+aS'mov REG DISPL;'
+p892
+aS'mov REG DISPL;'
+p893
+aS'cmp DISPL IMM;'
+p894
+aS'jz NEAR;'
+p895
+asg29
+Nsg30
+L4202688L
+sg31
+L4202748L
+sg32
+S'wl_end_paint'
+p896
+sg34
+L4202753L
+sg35
+S'jz'
+p897
+sbag1
+(g2
+g3
+Ntp898
+Rp899
+(dp900
+g7
+I79
+sg8
+(lp901
+S'mov DISPL IMM;'
+p902
+aS'jmp NEAR;'
+p903
+asg29
+Nsg30
+L4202754L
+sg31
+L4202761L
+sg32
+S'wl_end_paint'
+p904
+sg34
+L4202765L
+sg35
+S'jmp'
+p905
+sbag1
+(g2
+g3
+Ntp906
+Rp907
+(dp908
+g7
+I80
+sg8
+(lp909
+S'mov REG DISPL;'
+p910
+aS'mov REG DISPL;'
+p911
+aS'mov REG DISPL;'
+p912
+aS'mov REG DISPL;'
+p913
+aS'mov REG DISPL;'
+p914
+aS'mov REG DISPL;'
+p915
+aS'mov DISPL REG;'
+p916
+aS'mov REG DISPL;'
+p917
+aS'mov REG DISPL;'
+p918
+aS'mov REG DISPL;'
+p919
+aS'mov REG DISPL;'
+p920
+aS'mov REG DISPL;'
+p921
+aS'mov REG DISPL;'
+p922
+aS'mov DISPL REG;'
+p923
+aS'mov REG DISPL;'
+p924
+aS'mov REG DISPL;'
+p925
+aS'mov REG DISPL;'
+p926
+aS'mov REG DISPL;'
+p927
+aS'mov REG DISPL;'
+p928
+aS'mov REG DISPL;'
+p929
+aS'mov DISPL REG;'
+p930
+aS'mov REG DISPL;'
+p931
+aS'mov REG DISPL;'
+p932
+aS'mov REG DISPL;'
+p933
+aS'mov REG DISPL;'
+p934
+aS'mov REG DISPL;'
+p935
+aS'mov REG DISPL;'
+p936
+aS'mov DISPL REG;'
+p937
+aS'mov REG DISPL;'
+p938
+aS'mov DISPL REG;'
+p939
+aS'mov REG DISPL;'
+p940
+aS'mov REG DISPL;'
+p941
+aS'call NEAR;'
+p942
+aS'mov DISPL REG;'
+p943
+aS'cmp DISPL IMM;'
+p944
+aS'jnz NEAR;'
+p945
+asg29
+Nsg30
+L4202766L
+sg31
+L4202918L
+sg32
+S'wl_end_paint'
+p946
+sg34
+L4202923L
+sg35
+S'jnz'
+p947
+sbag1
+(g2
+g3
+Ntp948
+Rp949
+(dp950
+g7
+I81
+sg8
+(lp951
+S'mov DISPL IMM;'
+p952
+aS'jmp NEAR;'
+p953
+asg29
+Nsg30
+L4202924L
+sg31
+L4202931L
+sg32
+S'wl_end_paint'
+p954
+sg34
+L4202935L
+sg35
+S'jmp'
+p955
+sbag1
+(g2
+g3
+Ntp956
+Rp957
+(dp958
+g7
+I82
+sg8
+(lp959
+S'mov DISPL IMM;'
+p960
+aS'mov REG DISPL;'
+p961
+aS'cmp REG DISPL;'
+p962
+aS'jnb NEAR;'
+p963
+asg29
+Nsg30
+L4202936L
+sg31
+L4202949L
+sg32
+S'wl_end_paint'
+p964
+sg34
+L4202954L
+sg35
+S'jnb'
+p965
+sbag1
+(g2
+g3
+Ntp966
+Rp967
+(dp968
+g7
+I83
+sg8
+(lp969
+S'mov REG DISPL;'
+p970
+aS'mov REG DISPL;'
+p971
+aS'add REG DISPL;'
+p972
+aS'mov REG DISPL;'
+p973
+aS'mov REG DISPL;'
+p974
+aS'mov REG DISPL;'
+p975
+aS'mov REG DISPL;'
+p976
+aS'mov DISPL REG;'
+p977
+aS'mov DISPL REG;'
+p978
+aS'mov DISPL REG;'
+p979
+aS'call NEAR;'
+p980
+aS'mov REG DISPL;'
+p981
+aS'imul REG REG;'
+p982
+aS'mov REG DISPL;'
+p983
+aS'imul REG REG;'
+p984
+aS'mov REG REG;'
+p985
+aS'mov REG REG;'
+p986
+aS'mov REG DISPL;'
+p987
+aS'add REG REG;'
+p988
+aS'mov REG DISPL;'
+p989
+aS'mov REG DISPL;'
+p990
+aS'mov REG DISPL;'
+p991
+aS'mov DISPL REG;'
+p992
+aS'mov DISPL REG;'
+p993
+aS'call NEAR;'
+p994
+aS'mov REG DISPL;'
+p995
+aS'imul REG REG;'
+p996
+aS'mov REG REG;'
+p997
+aS'mov REG REG;'
+p998
+aS'mov REG DISPL;'
+p999
+aS'add REG REG;'
+p1000
+aS'mov REG DISPL;'
+p1001
+aS'mov REG DISPL;'
+p1002
+aS'mov REG DISPL;'
+p1003
+aS'add REG DISPL;'
+p1004
+aS'mov REG DISPL;'
+p1005
+aS'mov REG DISPL;'
+p1006
+aS'mov REG DISPL;'
+p1007
+aS'mov REG DISPL;'
+p1008
+aS'mov DISPL REG;'
+p1009
+aS'mov DISPL REG;'
+p1010
+aS'mov DISPL REG;'
+p1011
+aS'mov DISPL REG;'
+p1012
+aS'call NEAR;'
+p1013
+aS'mov REG DISPL;'
+p1014
+aS'imul REG REG;'
+p1015
+aS'mov REG DISPL;'
+p1016
+aS'imul REG REG;'
+p1017
+aS'mov REG REG;'
+p1018
+aS'mov REG REG;'
+p1019
+aS'mov REG DISPL;'
+p1020
+aS'add REG REG;'
+p1021
+aS'mov REG DISPL;'
+p1022
+aS'mov REG DISPL;'
+p1023
+aS'mov REG DISPL;'
+p1024
+aS'mov DISPL REG;'
+p1025
+aS'mov DISPL REG;'
+p1026
+aS'call NEAR;'
+p1027
+aS'mov REG DISPL;'
+p1028
+aS'imul REG REG;'
+p1029
+aS'mov REG REG;'
+p1030
+aS'mov REG REG;'
+p1031
+aS'mov REG DISPL;'
+p1032
+aS'add REG REG;'
+p1033
+aS'mov REG DISPL;'
+p1034
+aS'mov REG DISPL;'
+p1035
+aS'mov REG DISPL;'
+p1036
+aS'mov DISPL REG;'
+p1037
+aS'mov DISPL REG;'
+p1038
+aS'call NEAR;'
+p1039
+aS'mov REG DISPL;'
+p1040
+aS'imul REG REG;'
+p1041
+aS'mov REG REG;'
+p1042
+aS'mov REG REG;'
+p1043
+aS'mov REG DISPL;'
+p1044
+aS'mov REG DISPL;'
+p1045
+aS'call NEAR;'
+p1046
+aS'mov REG DISPL;'
+p1047
+aS'add REG IMM;'
+p1048
+aS'mov DISPL REG;'
+p1049
+aS'jmp NEAR;'
+p1050
+asg29
+Nsg30
+L4202955L
+sg31
+L4203241L
+sg32
+S'wl_end_paint'
+p1051
+sg34
+L4203245L
+sg35
+S'jmp'
+p1052
+sbag1
+(g2
+g3
+Ntp1053
+Rp1054
+(dp1055
+g7
+I84
+sg8
+(lp1056
+S'mov REG DISPL;'
+p1057
+aS'mov REG DISPL;'
+p1058
+aS'mov REG DISPL;'
+p1059
+aS'mov REG DISPL;'
+p1060
+aS'mov REG DISPL;'
+p1061
+aS'mov REG DISPL;'
+p1062
+aS'call NEAR;'
+p1063
+aS'cmp REG IMM;'
+p1064
+aS'jz NEAR;'
+p1065
+asg29
+Nsg30
+L4203246L
+sg31
+L4203280L
+sg32
+S'wl_end_paint'
+p1066
+sg34
+L4203285L
+sg35
+S'jz'
+p1067
+sbag1
+(g2
+g3
+Ntp1068
+Rp1069
+(dp1070
+g7
+I85
+sg8
+(lp1071
+S'mov DISPL IMM;'
+p1072
+aS'jmp NEAR;'
+p1073
+asg29
+Nsg30
+L4203286L
+sg31
+L4203293L
+sg32
+S'wl_end_paint'
+p1074
+sg34
+L4203297L
+sg35
+S'jmp'
+p1075
+sbag1
+(g2
+g3
+Ntp1076
+Rp1077
+(dp1078
+g7
+I86
+sg8
+(lp1079
+S'mov REG DISPL;'
+p1080
+aS'mov DISPL IMM;'
+p1081
+aS'mov REG DISPL;'
+p1082
+aS'call NEAR;'
+p1083
+aS'mov DISPL REG;'
+p1084
+aS'mov REG DISPL;'
+p1085
+aS'add REG IMM;'
+p1086
+aS'pop REG;'
+p1087
+aS'retn;'
+p1088
+asg29
+Nsg30
+L4203298L
+sg31
+L4203335L
+sg32
+S'wl_end_paint'
+p1089
+sg34
+L4203335L
+sg35
+S'retn'
+p1090
+sbag1
+(g2
+g3
+Ntp1091
+Rp1092
+(dp1093
+g7
+I87
+sg8
+(lp1094
+S'push REG;'
+p1095
+aS'mov REG REG;'
+p1096
+aS'sub REG IMM;'
+p1097
+aS'mov DISPL REG;'
+p1098
+aS'mov REG DISPL;'
+p1099
+aS'call NEAR;'
+p1100
+aS'add REG IMM;'
+p1101
+aS'shr REG IMM;'
+p1102
+aS'add REG IMM;'
+p1103
+aS'pop REG;'
+p1104
+aS'retn;'
+p1105
+asg29
+Nsg30
+L4203344L
+sg31
+L4203376L
+sg32
+S'GetBytesPerPixel'
+p1106
+sg34
+L4203376L
+sg35
+S'retn'
+p1107
+sbag1
+(g2
+g3
+Ntp1108
+Rp1109
+(dp1110
+g7
+I88
+sg8
+(lp1111
+S'push REG;'
+p1112
+aS'mov REG REG;'
+p1113
+aS'sub REG IMM;'
+p1114
+aS'mov DISPL REG;'
+p1115
+aS'mov REG DISPL;'
+p1116
+aS'cmp DISPL IMM;'
+p1117
+aS'jnz NEAR;'
+p1118
+asg29
+Nsg30
+L4203392L
+sg31
+L4203418L
+sg32
+S'wl_update_content'
+p1119
+sg34
+L4203423L
+sg35
+S'jnz'
+p1120
+sbag1
+(g2
+g3
+Ntp1121
+Rp1122
+(dp1123
+g7
+I89
+sg8
+(lp1124
+S'mov REG DISPL;'
+p1125
+aS'cmp DISPL IMM;'
+p1126
+aS'jz NEAR;'
+p1127
+asg29
+Nsg30
+L4203424L
+sg31
+L4203438L
+sg32
+S'wl_update_content'
+p1128
+sg34
+L4203443L
+sg35
+S'jz'
+p1129
+sbag1
+(g2
+g3
+Ntp1130
+Rp1131
+(dp1132
+g7
+I90
+sg8
+(lp1133
+S'mov REG IMM;'
+p1134
+aS'mov REG DISPL;'
+p1135
+aS'mov REG DISPL;'
+p1136
+aS'call NEAR;'
+p1137
+aS'mov REG DISPL;'
+p1138
+aS'mov DISPL IMM;'
+p1139
+aS'mov REG DISPL;'
+p1140
+aS'mov DISPL IMM;'
+p1141
+aS'mov DISPL REG;'
+p1142
+aS'mov REG IMM;'
+p1143
+aS'add REG IMM;'
+p1144
+aS'pop REG;'
+p1145
+aS'retn;'
+p1146
+asg29
+Nsg30
+L4203444L
+sg31
+L4203506L
+sg32
+S'wl_update_content'
+p1147
+sg34
+L4203506L
+sg35
+S'retn'
+p1148
+sbag1
+(g2
+g3
+Ntp1149
+Rp1150
+(dp1151
+g7
+I91
+sg8
+(lp1152
+S'push REG;'
+p1153
+aS'mov REG REG;'
+p1154
+aS'mov DISPL REG;'
+p1155
+aS'mov REG DISPL;'
+p1156
+aS'shr REG IMM;'
+p1157
+aS'and REG IMM;'
+p1158
+aS'mov REG REG;'
+p1159
+aS'pop REG;'
+p1160
+aS'retn;'
+p1161
+asg29
+Nsg30
+L4203520L
+sg31
+L4203542L
+sg32
+S'GetBitsPerPixel'
+p1162
+sg34
+L4203542L
+sg35
+S'retn'
+p1163
+sbag1
+(g2
+g3
+Ntp1164
+Rp1165
+(dp1166
+g7
+I92
+sg8
+(lp1167
+S'push REG;'
+p1168
+aS'mov REG REG;'
+p1169
+aS'push REG;'
+p1170
+aS'push REG;'
+p1171
+aS'sub REG IMM;'
+p1172
+aS'mov DISPL REG;'
+p1173
+aS'mov DISPL REG;'
+p1174
+aS'mov REG DISPL;'
+p1175
+aS'mov DISPL REG;'
+p1176
+aS'cmp DISPL IMM;'
+p1177
+aS'jz NEAR;'
+p1178
+asg29
+Nsg30
+L4203552L
+sg31
+L4203587L
+sg32
+S'wlf_client_new'
+p1179
+sg34
+L4203592L
+sg35
+S'jz'
+p1180
+sbag1
+(g2
+g3
+Ntp1181
+Rp1182
+(dp1183
+g7
+I93
+sg8
+(lp1184
+S'cmp DISPL IMM;'
+p1185
+aS'jnz NEAR;'
+p1186
+asg29
+Nsg30
+L4203593L
+sg31
+L4203601L
+sg32
+S'wlf_client_new'
+p1187
+sg34
+L4203606L
+sg35
+S'jnz'
+p1188
+sbag1
+(g2
+g3
+Ntp1189
+Rp1190
+(dp1191
+g7
+I94
+sg8
+(lp1192
+S'mov DISPL IMM;'
+p1193
+aS'jmp NEAR;'
+p1194
+asg29
+Nsg30
+L4203607L
+sg31
+L4203614L
+sg32
+S'wlf_client_new'
+p1195
+sg34
+L4203618L
+sg35
+S'jmp'
+p1196
+sbag1
+(g2
+g3
+Ntp1197
+Rp1198
+(dp1199
+g7
+I95
+sg8
+(lp1200
+S'xor REG REG;'
+p1201
+aS'mov REG REG;'
+p1202
+aS'lea REG DISPL;'
+p1203
+aS'mov REG MEM;'
+p1204
+aS'mov REG MEM;'
+p1205
+aS'mov REG MEM;'
+p1206
+aS'mov REG MEM;'
+p1207
+aS'lea REG MEM;'
+p1208
+aS'lea REG MEM;'
+p1209
+aS'lea REG MEM;'
+p1210
+aS'mov REG DISPL;'
+p1211
+aS'mov DISPL REG;'
+p1212
+aS'mov REG DISPL;'
+p1213
+aS'mov DISPL REG;'
+p1214
+aS'mov REG DISPL;'
+p1215
+aS'mov DISPL REG;'
+p1216
+aS'mov REG DISPL;'
+p1217
+aS'mov DISPL REG;'
+p1218
+aS'mov REG DISPL;'
+p1219
+aS'mov DISPL REG;'
+p1220
+aS'mov REG DISPL;'
+p1221
+aS'mov DISPL REG;'
+p1222
+aS'mov REG DISPL;'
+p1223
+aS'mov DISPL REG;'
+p1224
+aS'mov REG DISPL;'
+p1225
+aS'mov DISPL IMM;'
+p1226
+aS'call NEAR;'
+p1227
+aS'mov REG DISPL;'
+p1228
+aS'mov DISPL REG;'
+p1229
+aS'mov REG DISPL;'
+p1230
+aS'cmp DISPL IMM;'
+p1231
+aS'jz NEAR;'
+p1232
+asg29
+Nsg30
+L4203619L
+sg31
+L4203799L
+sg32
+S'wlf_client_new'
+p1233
+sg34
+L4203804L
+sg35
+S'jz'
+p1234
+sbag1
+(g2
+g3
+Ntp1235
+Rp1236
+(dp1237
+g7
+I96
+sg8
+(lp1238
+S'cmp DISPL IMM;'
+p1239
+aS'jz NEAR;'
+p1240
+asg29
+Nsg30
+L4203805L
+sg31
+L4203812L
+sg32
+S'wlf_client_new'
+p1241
+sg34
+L4203817L
+sg35
+S'jz'
+p1242
+sbag1
+(g2
+g3
+Ntp1243
+Rp1244
+(dp1245
+g7
+I97
+sg8
+(lp1246
+S'mov DISPL IMM;'
+p1247
+aS'jmp NEAR;'
+p1248
+asg29
+Nsg30
+L4203818L
+sg31
+L4203825L
+sg32
+S'wlf_client_new'
+p1249
+sg34
+L4203829L
+sg35
+S'jmp'
+p1250
+sbag1
+(g2
+g3
+Ntp1251
+Rp1252
+(dp1253
+g7
+I98
+sg8
+(lp1254
+S'mov REG DISPL;'
+p1255
+aS'mov REG DISPL;'
+p1256
+aS'call NEAR;'
+p1257
+aS'xor REG REG;'
+p1258
+aS'mov REG REG;'
+p1259
+aS'xor REG REG;'
+p1260
+aS'mov REG IMM;'
+p1261
+aS'mov REG REG;'
+p1262
+aS'mov REG REG;'
+p1263
+aS'mov REG REG;'
+p1264
+aS'call NEAR;'
+p1265
+aS'mov REG DISPL;'
+p1266
+aS'mov DISPL REG;'
+p1267
+aS'mov REG DISPL;'
+p1268
+aS'cmp DISPL IMM;'
+p1269
+aS'jnz NEAR;'
+p1270
+asg29
+Nsg30
+L4203830L
+sg31
+L4203895L
+sg32
+S'wlf_client_new'
+p1271
+sg34
+L4203900L
+sg35
+S'jnz'
+p1272
+sbag1
+(g2
+g3
+Ntp1273
+Rp1274
+(dp1275
+g7
+I99
+sg8
+(lp1276
+S'mov DISPL IMM;'
+p1277
+aS'jmp NEAR;'
+p1278
+asg29
+Nsg30
+L4203901L
+sg31
+L4203908L
+sg32
+S'wlf_client_new'
+p1279
+sg34
+L4203912L
+sg35
+S'jmp'
+p1280
+sbag1
+(g2
+g3
+Ntp1281
+Rp1282
+(dp1283
+g7
+I100
+sg8
+(lp1284
+S'mov DISPL IMM;'
+p1285
+aS'mov REG DISPL;'
+p1286
+aS'add REG IMM;'
+p1287
+aS'pop REG;'
+p1288
+aS'pop REG;'
+p1289
+aS'pop REG;'
+p1290
+aS'retn;'
+p1291
+asg29
+Nsg30
+L4203913L
+sg31
+L4203931L
+sg32
+S'wlf_client_new'
+p1292
+sg34
+L4203931L
+sg35
+S'retn'
+p1293
+sbag1
+(g2
+g3
+Ntp1294
+Rp1295
+(dp1296
+g7
+I101
+sg8
+(lp1297
+S'push REG;'
+p1298
+aS'mov REG REG;'
+p1299
+aS'sub REG IMM;'
+p1300
+aS'mov DISPL REG;'
+p1301
+aS'mov DISPL REG;'
+p1302
+aS'mov REG DISPL;'
+p1303
+aS'mov REG PHRASE;'
+p1304
+aS'mov DISPL REG;'
+p1305
+aS'cmp DISPL IMM;'
+p1306
+aS'jnz NEAR;'
+p1307
+asg29
+Nsg30
+L4203936L
+sg31
+L4203971L
+sg32
+S'wlf_client_free'
+p1308
+sg34
+L4203976L
+sg35
+S'jnz'
+p1309
+sbag1
+(g2
+g3
+Ntp1310
+Rp1311
+(dp1312
+g7
+I102
+sg8
+(lp1313
+S'jmp NEAR;'
+p1314
+asg29
+Nsg30
+L4203977L
+sg31
+L4203977L
+sg32
+S'wlf_client_free'
+p1315
+sg34
+L4203981L
+sg35
+S'jmp'
+p1316
+sbag1
+(g2
+g3
+Ntp1317
+Rp1318
+(dp1319
+g7
+I103
+sg8
+(lp1320
+S'mov REG DISPL;'
+p1321
+aS'cmp DISPL IMM;'
+p1322
+aS'jz NEAR;'
+p1323
+asg29
+Nsg30
+L4203982L
+sg31
+L4203997L
+sg32
+S'wlf_client_free'
+p1324
+sg34
+L4204002L
+sg35
+S'jz'
+p1325
+sbag1
+(g2
+g3
+Ntp1326
+Rp1327
+(dp1328
+g7
+I104
+sg8
+(lp1329
+S'mov REG DISPL;'
+p1330
+aS'add REG IMM;'
+p1331
+aS'mov REG REG;'
+p1332
+aS'call NEAR;'
+p1333
+aS'mov DISPL REG;'
+p1334
+aS'mov REG DISPL;'
+p1335
+aS'cmp DISPL IMM;'
+p1336
+aS'jz NEAR;'
+p1337
+asg29
+Nsg30
+L4204003L
+sg31
+L4204039L
+sg32
+S'wlf_client_free'
+p1338
+sg34
+L4204044L
+sg35
+S'jz'
+p1339
+sbag1
+(g2
+g3
+Ntp1340
+Rp1341
+(dp1342
+g7
+I105
+sg8
+(lp1343
+S'mov REG DISPL;'
+p1344
+aS'mov REG DISPL;'
+p1345
+aS'call NEAR;'
+p1346
+aS'mov DISPL REG;'
+p1347
+aS'add REG IMM;'
+p1348
+aS'pop REG;'
+p1349
+aS'retn;'
+p1350
+asg29
+Nsg30
+L4204045L
+sg31
+L4204069L
+sg32
+S'wlf_client_free'
+p1351
+sg34
+L4204069L
+sg35
+S'retn'
+p1352
+sbag1
+(g2
+g3
+Ntp1353
+Rp1354
+(dp1355
+g7
+I106
+sg8
+(lp1356
+S'push REG;'
+p1357
+aS'mov REG REG;'
+p1358
+aS'xor REG REG;'
+p1359
+aS'mov DISPL REG;'
+p1360
+aS'pop REG;'
+p1361
+aS'retn;'
+p1362
+asg29
+Nsg30
+L4204080L
+sg31
+L4204091L
+sg32
+S'wfl_client_start'
+p1363
+sg34
+L4204091L
+sg35
+S'retn'
+p1364
+sbag1
+(g2
+g3
+Ntp1365
+Rp1366
+(dp1367
+g7
+I107
+sg8
+(lp1368
+S'push REG;'
+p1369
+aS'mov REG REG;'
+p1370
+aS'xor REG REG;'
+p1371
+aS'mov DISPL REG;'
+p1372
+aS'pop REG;'
+p1373
+aS'retn;'
+p1374
+asg29
+Nsg30
+L4204096L
+sg31
+L4204107L
+sg32
+S'wfl_client_stop'
+p1375
+sg34
+L4204107L
+sg35
+S'retn'
+p1376
+sbag1
+(g2
+g3
+Ntp1377
+Rp1378
+(dp1379
+g7
+I108
+sg8
+(lp1380
+S'push REG;'
+p1381
+aS'mov REG REG;'
+p1382
+aS'sub REG IMM;'
+p1383
+aS'mov DISPL REG;'
+p1384
+aS'cmp DISPL IMM;'
+p1385
+aS'jnz NEAR;'
+p1386
+asg29
+Nsg30
+L4204112L
+sg31
+L4204132L
+sg32
+S'wl_pre_connect'
+p1387
+sg34
+L4204137L
+sg35
+S'jnz'
+p1388
+sbag1
+(g2
+g3
+Ntp1389
+Rp1390
+(dp1391
+g7
+I109
+sg8
+(lp1392
+S'mov DISPL IMM;'
+p1393
+aS'jmp NEAR;'
+p1394
+asg29
+Nsg30
+L4204138L
+sg31
+L4204145L
+sg32
+S'wl_pre_connect'
+p1395
+sg34
+L4204149L
+sg35
+S'jmp'
+p1396
+sbag1
+(g2
+g3
+Ntp1397
+Rp1398
+(dp1399
+g7
+I110
+sg8
+(lp1400
+S'mov REG DISPL;'
+p1401
+aS'mov REG PHRASE;'
+p1402
+aS'mov DISPL REG;'
+p1403
+aS'mov REG DISPL;'
+p1404
+aS'mov REG DISPL;'
+p1405
+aS'mov DISPL REG;'
+p1406
+aS'cmp DISPL IMM;'
+p1407
+aS'jz NEAR;'
+p1408
+asg29
+Nsg30
+L4204150L
+sg31
+L4204184L
+sg32
+S'wl_pre_connect'
+p1409
+sg34
+L4204189L
+sg35
+S'jz'
+p1410
+sbag1
+(g2
+g3
+Ntp1411
+Rp1412
+(dp1413
+g7
+I111
+sg8
+(lp1414
+S'cmp DISPL IMM;'
+p1415
+aS'jnz NEAR;'
+p1416
+asg29
+Nsg30
+L4204190L
+sg31
+L4204198L
+sg32
+S'wl_pre_connect'
+p1417
+sg34
+L4204203L
+sg35
+S'jnz'
+p1418
+sbag1
+(g2
+g3
+Ntp1419
+Rp1420
+(dp1421
+g7
+I112
+sg8
+(lp1422
+S'mov DISPL IMM;'
+p1423
+aS'jmp NEAR;'
+p1424
+asg29
+Nsg30
+L4204204L
+sg31
+L4204211L
+sg32
+S'wl_pre_connect'
+p1425
+sg34
+L4204215L
+sg35
+S'jmp'
+p1426
+sbag1
+(g2
+g3
+Ntp1427
+Rp1428
+(dp1429
+g7
+I113
+sg8
+(lp1430
+S'mov REG MEM;'
+p1431
+aS'xor REG REG;'
+p1432
+aS'mov REG IMM;'
+p1433
+aS'mov REG REG;'
+p1434
+aS'mov REG DISPL;'
+p1435
+aS'mov DISPL IMM;'
+p1436
+aS'mov REG DISPL;'
+p1437
+aS'mov DISPL IMM;'
+p1438
+aS'mov REG DISPL;'
+p1439
+aS'mov DISPL IMM;'
+p1440
+aS'mov REG DISPL;'
+p1441
+aS'mov REG DISPL;'
+p1442
+aS'mov DISPL REG;'
+p1443
+aS'call NEAR;'
+p1444
+aS'mov REG DISPL;'
+p1445
+aS'mov REG DISPL;'
+p1446
+aS'mov PHRASE IMM;'
+p1447
+aS'mov REG DISPL;'
+p1448
+aS'mov REG DISPL;'
+p1449
+aS'mov DISPL IMM;'
+p1450
+aS'mov REG DISPL;'
+p1451
+aS'mov REG DISPL;'
+p1452
+aS'mov DISPL IMM;'
+p1453
+aS'mov REG DISPL;'
+p1454
+aS'mov REG DISPL;'
+p1455
+aS'mov DISPL IMM;'
+p1456
+aS'mov REG DISPL;'
+p1457
+aS'mov REG DISPL;'
+p1458
+aS'mov DISPL IMM;'
+p1459
+aS'mov REG DISPL;'
+p1460
+aS'mov REG DISPL;'
+p1461
+aS'mov DISPL IMM;'
+p1462
+aS'mov REG DISPL;'
+p1463
+aS'mov REG DISPL;'
+p1464
+aS'mov DISPL IMM;'
+p1465
+aS'mov REG DISPL;'
+p1466
+aS'mov REG DISPL;'
+p1467
+aS'mov DISPL IMM;'
+p1468
+aS'mov REG DISPL;'
+p1469
+aS'mov REG DISPL;'
+p1470
+aS'mov DISPL IMM;'
+p1471
+aS'mov REG DISPL;'
+p1472
+aS'mov REG DISPL;'
+p1473
+aS'mov DISPL IMM;'
+p1474
+aS'mov REG DISPL;'
+p1475
+aS'mov REG DISPL;'
+p1476
+aS'mov DISPL IMM;'
+p1477
+aS'mov REG DISPL;'
+p1478
+aS'mov REG DISPL;'
+p1479
+aS'mov DISPL IMM;'
+p1480
+aS'mov REG DISPL;'
+p1481
+aS'mov REG DISPL;'
+p1482
+aS'mov REG REG;'
+p1483
+aS'mov REG DISPL;'
+p1484
+aS'mov REG DISPL;'
+p1485
+aS'mov DISPL REG;'
+p1486
+aS'mov REG DISPL;'
+p1487
+aS'mov REG DISPL;'
+p1488
+aS'mov DISPL IMM;'
+p1489
+aS'mov REG DISPL;'
+p1490
+aS'mov REG DISPL;'
+p1491
+aS'mov REG REG;'
+p1492
+aS'mov REG DISPL;'
+p1493
+aS'mov REG DISPL;'
+p1494
+aS'mov DISPL REG;'
+p1495
+aS'mov REG DISPL;'
+p1496
+aS'mov REG DISPL;'
+p1497
+aS'mov DISPL IMM;'
+p1498
+aS'mov REG DISPL;'
+p1499
+aS'mov REG DISPL;'
+p1500
+aS'mov DISPL IMM;'
+p1501
+aS'mov REG DISPL;'
+p1502
+aS'mov REG DISPL;'
+p1503
+aS'mov DISPL IMM;'
+p1504
+aS'mov REG DISPL;'
+p1505
+aS'mov REG DISPL;'
+p1506
+aS'mov DISPL IMM;'
+p1507
+aS'mov REG DISPL;'
+p1508
+aS'mov REG DISPL;'
+p1509
+aS'mov DISPL IMM;'
+p1510
+aS'mov REG DISPL;'
+p1511
+aS'mov REG DISPL;'
+p1512
+aS'mov DISPL IMM;'
+p1513
+aS'mov REG DISPL;'
+p1514
+aS'mov REG DISPL;'
+p1515
+aS'mov DISPL IMM;'
+p1516
+aS'mov REG DISPL;'
+p1517
+aS'mov REG DISPL;'
+p1518
+aS'mov DISPL IMM;'
+p1519
+aS'mov REG DISPL;'
+p1520
+aS'mov REG DISPL;'
+p1521
+aS'mov DISPL IMM;'
+p1522
+aS'mov REG DISPL;'
+p1523
+aS'mov REG PHRASE;'
+p1524
+aS'mov REG DISPL;'
+p1525
+aS'mov REG DISPL;'
+p1526
+aS'call NEAR;'
+p1527
+aS'mov REG MEM;'
+p1528
+aS'mov REG DISPL;'
+p1529
+aS'mov REG PHRASE;'
+p1530
+aS'mov REG DISPL;'
+p1531
+aS'mov REG REG;'
+p1532
+aS'mov DISPL REG;'
+p1533
+aS'call NEAR;'
+p1534
+aS'mov REG DISPL;'
+p1535
+aS'mov REG PHRASE;'
+p1536
+aS'mov REG DISPL;'
+p1537
+aS'mov REG DISPL;'
+p1538
+aS'mov REG DISPL;'
+p1539
+aS'mov DISPL REG;'
+p1540
+aS'call NEAR;'
+p1541
+aS'cmp REG IMM;'
+p1542
+aS'jnz NEAR;'
+p1543
+asg29
+Nsg30
+L4204216L
+sg31
+L4204772L
+sg32
+S'wl_pre_connect'
+p1544
+sg34
+L4204777L
+sg35
+S'jnz'
+p1545
+sbag1
+(g2
+g3
+Ntp1546
+Rp1547
+(dp1548
+g7
+I114
+sg8
+(lp1549
+S'mov DISPL IMM;'
+p1550
+aS'jmp NEAR;'
+p1551
+asg29
+Nsg30
+L4204778L
+sg31
+L4204785L
+sg32
+S'wl_pre_connect'
+p1552
+sg34
+L4204789L
+sg35
+S'jmp'
+p1553
+sbag1
+(g2
+g3
+Ntp1554
+Rp1555
+(dp1556
+g7
+I115
+sg8
+(lp1557
+S'mov DISPL IMM;'
+p1558
+aS'mov REG DISPL;'
+p1559
+aS'add REG IMM;'
+p1560
+aS'pop REG;'
+p1561
+aS'retn;'
+p1562
+asg29
+Nsg30
+L4204790L
+sg31
+L4204805L
+sg32
+S'wl_pre_connect'
+p1563
+sg34
+L4204805L
+sg35
+S'retn'
+p1564
+sbag1
+(g2
+g3
+Ntp1565
+Rp1566
+(dp1567
+g7
+I116
+sg8
+(lp1568
+S'push REG;'
+p1569
+aS'mov REG REG;'
+p1570
+aS'sub REG IMM;'
+p1571
+aS'mov REG IMM;'
+p1572
+aS'mov DISPL REG;'
+p1573
+aS'mov REG DISPL;'
+p1574
+aS'call NEAR;'
+p1575
+aS'cmp REG IMM;'
+p1576
+aS'jnz NEAR;'
+p1577
+asg29
+Nsg30
+L4204816L
+sg31
+L4204847L
+sg32
+S'wl_post_connect'
+p1578
+sg34
+L4204852L
+sg35
+S'jnz'
+p1579
+sbag1
+(g2
+g3
+Ntp1580
+Rp1581
+(dp1582
+g7
+I117
+sg8
+(lp1583
+S'mov DISPL IMM;'
+p1584
+aS'jmp NEAR;'
+p1585
+asg29
+Nsg30
+L4204853L
+sg31
+L4204860L
+sg32
+S'wl_post_connect'
+p1586
+sg34
+L4204864L
+sg35
+S'jmp'
+p1587
+sbag1
+(g2
+g3
+Ntp1588
+Rp1589
+(dp1590
+g7
+I118
+sg8
+(lp1591
+S'mov REG DISPL;'
+p1592
+aS'mov REG PHRASE;'
+p1593
+aS'mov REG DISPL;'
+p1594
+aS'mov DISPL REG;'
+p1595
+aS'cmp DISPL IMM;'
+p1596
+aS'jnz NEAR;'
+p1597
+asg29
+Nsg30
+L4204865L
+sg31
+L4204891L
+sg32
+S'wl_post_connect'
+p1598
+sg34
+L4204896L
+sg35
+S'jnz'
+p1599
+sbag1
+(g2
+g3
+Ntp1600
+Rp1601
+(dp1602
+g7
+I119
+sg8
+(lp1603
+S'mov DISPL IMM;'
+p1604
+aS'jmp NEAR;'
+p1605
+asg29
+Nsg30
+L4204897L
+sg31
+L4204904L
+sg32
+S'wl_post_connect'
+p1606
+sg34
+L4204908L
+sg35
+S'jmp'
+p1607
+sbag1
+(g2
+g3
+Ntp1608
+Rp1609
+(dp1610
+g7
+I120
+sg8
+(lp1611
+S'mov REG IMM;'
+p1612
+aS'mov REG DISPL;'
+p1613
+aS'mov REG PHRASE;'
+p1614
+aS'mov DISPL REG;'
+p1615
+aS'mov REG DISPL;'
+p1616
+aS'mov REG DISPL;'
+p1617
+aS'mov REG DISPL;'
+p1618
+aS'mov REG DISPL;'
+p1619
+aS'mov REG DISPL;'
+p1620
+aS'mov REG DISPL;'
+p1621
+aS'call NEAR;'
+p1622
+aS'mov DISPL REG;'
+p1623
+aS'mov REG DISPL;'
+p1624
+aS'mov DISPL REG;'
+p1625
+aS'cmp DISPL IMM;'
+p1626
+aS'jnz NEAR;'
+p1627
+asg29
+Nsg30
+L4204909L
+sg31
+L4204978L
+sg32
+S'wl_post_connect'
+p1628
+sg34
+L4204983L
+sg35
+S'jnz'
+p1629
+sbag1
+(g2
+g3
+Ntp1630
+Rp1631
+(dp1632
+g7
+I121
+sg8
+(lp1633
+S'mov DISPL IMM;'
+p1634
+aS'jmp NEAR;'
+p1635
+asg29
+Nsg30
+L4204984L
+sg31
+L4204991L
+sg32
+S'wl_post_connect'
+p1636
+sg34
+L4204995L
+sg35
+S'jmp'
+p1637
+sbag1
+(g2
+g3
+Ntp1638
+Rp1639
+(dp1640
+g7
+I122
+sg8
+(lp1641
+S'lea REG MEM;'
+p1642
+aS'mov REG DISPL;'
+p1643
+aS'call NEAR;'
+p1644
+aS'lea REG MEM;'
+p1645
+aS'lea REG MEM;'
+p1646
+aS'mov REG DISPL;'
+p1647
+aS'mov REG DISPL;'
+p1648
+aS'mov DISPL REG;'
+p1649
+aS'mov REG DISPL;'
+p1650
+aS'mov REG DISPL;'
+p1651
+aS'mov DISPL REG;'
+p1652
+aS'mov REG DISPL;'
+p1653
+aS'mov REG DISPL;'
+p1654
+aS'call NEAR;'
+p1655
+aS'xor REG REG;'
+p1656
+aS'mov REG DISPL;'
+p1657
+aS'mov REG DISPL;'
+p1658
+aS'mov REG DISPL;'
+p1659
+aS'mov REG DISPL;'
+p1660
+aS'mov REG DISPL;'
+p1661
+aS'imul REG DISPL;'
+p1662
+aS'shl REG IMM;'
+p1663
+aS'mov REG REG;'
+p1664
+aS'mov REG REG;'
+p1665
+aS'mov DISPL REG;'
+p1666
+aS'call NEAR;'
+p1667
+aS'mov REG DISPL;'
+p1668
+aS'mov REG DISPL;'
+p1669
+aS'mov REG DISPL;'
+p1670
+aS'mov REG DISPL;'
+p1671
+aS'mov REG DISPL;'
+p1672
+aS'mov REG DISPL;'
+p1673
+aS'mov REG DISPL;'
+p1674
+aS'mov REG DISPL;'
+p1675
+aS'call NEAR;'
+p1676
+aS'mov REG DISPL;'
+p1677
+aS'mov DISPL IMM;'
+p1678
+aS'mov REG DISPL;'
+p1679
+aS'mov DISPL REG;'
+p1680
+aS'call NEAR;'
+p1681
+aS'mov DISPL REG;'
+p1682
+aS'mov REG DISPL;'
+p1683
+aS'add REG IMM;'
+p1684
+aS'pop REG;'
+p1685
+aS'retn;'
+p1686
+asg29
+Nsg30
+L4204996L
+sg31
+L4205187L
+sg32
+S'wl_post_connect'
+p1687
+sg34
+L4205187L
+sg35
+S'retn'
+p1688
+sbag1
+(g2
+g3
+Ntp1689
+Rp1690
+(dp1691
+g7
+I123
+sg8
+(lp1692
+S'push REG;'
+p1693
+aS'mov REG REG;'
+p1694
+aS'sub REG IMM;'
+p1695
+aS'mov DISPL REG;'
+p1696
+aS'cmp DISPL IMM;'
+p1697
+aS'jnz NEAR;'
+p1698
+asg29
+Nsg30
+L4205200L
+sg31
+L4205220L
+sg32
+S'wl_post_disconnect'
+p1699
+sg34
+L4205225L
+sg35
+S'jnz'
+p1700
+sbag1
+(g2
+g3
+Ntp1701
+Rp1702
+(dp1703
+g7
+I124
+sg8
+(lp1704
+S'jmp NEAR;'
+p1705
+asg29
+Nsg30
+L4205226L
+sg31
+L4205226L
+sg32
+S'wl_post_disconnect'
+p1706
+sg34
+L4205230L
+sg35
+S'jmp'
+p1707
+sbag1
+(g2
+g3
+Ntp1708
+Rp1709
+(dp1710
+g7
+I125
+sg8
+(lp1711
+S'mov REG DISPL;'
+p1712
+aS'cmp PHRASE IMM;'
+p1713
+aS'jnz NEAR;'
+p1714
+asg29
+Nsg30
+L4205231L
+sg31
+L4205242L
+sg32
+S'wl_post_disconnect'
+p1715
+sg34
+L4205247L
+sg35
+S'jnz'
+p1716
+sbag1
+(g2
+g3
+Ntp1717
+Rp1718
+(dp1719
+g7
+I126
+sg8
+(lp1720
+S'jmp NEAR;'
+p1721
+asg29
+Nsg30
+L4205248L
+sg31
+L4205248L
+sg32
+S'wl_post_disconnect'
+p1722
+sg34
+L4205252L
+sg35
+S'jmp'
+p1723
+sbag1
+(g2
+g3
+Ntp1724
+Rp1725
+(dp1726
+g7
+I127
+sg8
+(lp1727
+S'mov REG DISPL;'
+p1728
+aS'mov REG PHRASE;'
+p1729
+aS'mov DISPL REG;'
+p1730
+aS'mov REG DISPL;'
+p1731
+aS'call NEAR;'
+p1732
+aS'mov REG DISPL;'
+p1733
+aS'cmp DISPL IMM;'
+p1734
+aS'jz NEAR;'
+p1735
+asg29
+Nsg30
+L4205253L
+sg31
+L4205288L
+sg32
+S'wl_post_disconnect'
+p1736
+sg34
+L4205293L
+sg35
+S'jz'
+p1737
+sbag1
+(g2
+g3
+Ntp1738
+Rp1739
+(dp1740
+g7
+I128
+sg8
+(lp1741
+S'mov REG DISPL;'
+p1742
+aS'add REG IMM;'
+p1743
+aS'mov REG REG;'
+p1744
+aS'call NEAR;'
+p1745
+aS'mov DISPL REG;'
+p1746
+aS'add REG IMM;'
+p1747
+aS'pop REG;'
+p1748
+aS'retn;'
+p1749
+asg29
+Nsg30
+L4205294L
+sg31
+L4205320L
+sg32
+S'wl_post_disconnect'
+p1750
+sg34
+L4205320L
+sg35
+S'retn'
+p1751
+sbag1
+(g2
+g3
+Ntp1752
+Rp1753
+(dp1754
+g7
+I129
+sg8
+(lp1755
+S'push REG;'
+p1756
+aS'mov REG REG;'
+p1757
+aS'mov REG IMM;'
+p1758
+aS'mov DISPL REG;'
+p1759
+aS'mov REG DISPL;'
+p1760
+aS'mov REG DISPL;'
+p1761
+aS'mov DISPL REG;'
+p1762
+aS'mov REG DISPL;'
+p1763
+aS'mov REG DISPL;'
+p1764
+aS'mov REG DISPL;'
+p1765
+aS'mov REG DISPL;'
+p1766
+aS'mov REG DISPL;'
+p1767
+aS'mov DISPL IMM;'
+p1768
+aS'pop REG;'
+p1769
+aS'retn;'
+p1770
+asg29
+Nsg30
+L4205328L
+sg31
+L4205387L
+sg32
+S'wl_begin_paint'
+p1771
+sg34
+L4205387L
+sg35
+S'retn'
+p1772
+sbag1
+(g2
+g3
+Ntp1773
+Rp1774
+(dp1775
+g7
+I130
+sg8
+(lp1776
+S'push REG;'
+p1777
+aS'mov REG REG;'
+p1778
+aS'sub REG IMM;'
+p1779
+aS'lea REG MEM;'
+p1780
+aS'mov DISPL REG;'
+p1781
+aS'mov DISPL REG;'
+p1782
+aS'mov REG DISPL;'
+p1783
+aS'mov REG DISPL;'
+p1784
+aS'mov DISPL REG;'
+p1785
+aS'mov REG REG;'
+p1786
+aS'mov REG DISPL;'
+p1787
+aS'call NEAR;'
+p1788
+aS'add REG IMM;'
+p1789
+aS'pop REG;'
+p1790
+aS'retn;'
+p1791
+asg29
+Nsg30
+L4205392L
+sg31
+L4205444L
+sg32
+S'PubSub_SubscribeChannelConnected'
+p1792
+sg34
+L4205444L
+sg35
+S'retn'
+p1793
+sbag1
+(g2
+g3
+Ntp1794
+Rp1795
+(dp1796
+g7
+I131
+sg8
+(lp1797
+S'push REG;'
+p1798
+aS'mov REG REG;'
+p1799
+aS'sub REG IMM;'
+p1800
+aS'lea REG MEM;'
+p1801
+aS'mov DISPL REG;'
+p1802
+aS'mov DISPL REG;'
+p1803
+aS'mov REG DISPL;'
+p1804
+aS'mov REG DISPL;'
+p1805
+aS'mov DISPL REG;'
+p1806
+aS'mov REG REG;'
+p1807
+aS'mov REG DISPL;'
+p1808
+aS'call NEAR;'
+p1809
+aS'add REG IMM;'
+p1810
+aS'pop REG;'
+p1811
+aS'retn;'
+p1812
+asg29
+Nsg30
+L4205456L
+sg31
+L4205508L
+sg32
+S'PubSub_SubscribeChannelDisconnected'
+p1813
+sg34
+L4205508L
+sg35
+S'retn'
+p1814
+sbag1
+(g2
+g3
+Ntp1815
+Rp1816
+(dp1817
+g7
+I132
+sg8
+(lp1818
+S'push REG;'
+p1819
+aS'mov REG REG;'
+p1820
+aS'pop REG;'
+p1821
+aS'retn;'
+p1822
+asg29
+Nsg30
+L4205520L
+sg31
+L4205525L
+sg32
+S'wlf_client_global_uninit'
+p1823
+sg34
+L4205525L
+sg35
+S'retn'
+p1824
+sbag1
+(g2
+g3
+Ntp1825
+Rp1826
+(dp1827
+g7
+I133
+sg8
+(lp1828
+S'push REG;'
+p1829
+aS'mov REG REG;'
+p1830
+aS'sub REG IMM;'
+p1831
+aS'mov REG IMM;'
+p1832
+aS'lea REG MEM;'
+p1833
+aS'call NEAR;'
+p1834
+aS'mov DISPL REG;'
+p1835
+aS'call NEAR;'
+p1836
+aS'cmp REG IMM;'
+p1837
+aS'jz NEAR;'
+p1838
+asg29
+Nsg30
+L4205536L
+sg31
+L4205575L
+sg32
+S'wlf_client_global_init'
+p1839
+sg34
+L4205580L
+sg35
+S'jz'
+p1840
+sbag1
+(g2
+g3
+Ntp1841
+Rp1842
+(dp1843
+g7
+I134
+sg8
+(lp1844
+S'mov DISPL IMM;'
+p1845
+aS'jmp NEAR;'
+p1846
+asg29
+Nsg30
+L4205581L
+sg31
+L4205588L
+sg32
+S'wlf_client_global_init'
+p1847
+sg34
+L4205592L
+sg35
+S'jmp'
+p1848
+sbag1
+(g2
+g3
+Ntp1849
+Rp1850
+(dp1851
+g7
+I135
+sg8
+(lp1852
+S'mov DISPL IMM;'
+p1853
+aS'mov REG DISPL;'
+p1854
+aS'add REG IMM;'
+p1855
+aS'pop REG;'
+p1856
+aS'retn;'
+p1857
+asg29
+Nsg30
+L4205593L
+sg31
+L4205608L
+sg32
+S'wlf_client_global_init'
+p1858
+sg34
+L4205608L
+sg35
+S'retn'
+p1859
+sbag1
+(g2
+g3
+Ntp1860
+Rp1861
+(dp1862
+g7
+I136
+sg8
+(lp1863
+S'push REG;'
+p1864
+aS'mov REG REG;'
+p1865
+aS'sub REG IMM;'
+p1866
+aS'mov REG IMM;'
+p1867
+aS'mov DISPL REG;'
+p1868
+aS'mov DISPL REG;'
+p1869
+aS'mov REG DISPL;'
+p1870
+aS'mov REG DISPL;'
+p1871
+aS'mov DISPL REG;'
+p1872
+aS'mov REG DISPL;'
+p1873
+aS'mov REG DISPL;'
+p1874
+aS'mov REG DISPL;'
+p1875
+aS'mov REG DISPL;'
+p1876
+aS'mov REG DISPL;'
+p1877
+aS'mov REG REG;'
+p1878
+aS'mov REG DISPL;'
+p1879
+aS'mov REG DISPL;'
+p1880
+aS'mov REG REG;'
+p1881
+aS'mov DISPL REG;'
+p1882
+aS'mov REG REG;'
+p1883
+aS'movzx REG REG;'
+p1884
+aS'movzx REG REG;'
+p1885
+aS'mov REG DISPL;'
+p1886
+aS'call REG;'
+p1887
+aS'add REG IMM;'
+p1888
+aS'pop REG;'
+p1889
+aS'retn;'
+p1890
+asg29
+Nsg30
+L4205616L
+sg31
+L4205712L
+sg32
+S'wlf_handle_pointer_enter'
+p1891
+sg34
+L4205712L
+sg35
+S'retn'
+p1892
+sbag1
+(g2
+g3
+Ntp1893
+Rp1894
+(dp1895
+g7
+I137
+sg8
+(lp1896
+S'push REG;'
+p1897
+aS'mov REG REG;'
+p1898
+aS'sub REG IMM;'
+p1899
+aS'mov REG IMM;'
+p1900
+aS'mov DISPL REG;'
+p1901
+aS'mov DISPL REG;'
+p1902
+aS'mov REG DISPL;'
+p1903
+aS'mov REG DISPL;'
+p1904
+aS'mov DISPL REG;'
+p1905
+aS'mov REG DISPL;'
+p1906
+aS'mov REG DISPL;'
+p1907
+aS'mov REG DISPL;'
+p1908
+aS'mov REG DISPL;'
+p1909
+aS'mov REG DISPL;'
+p1910
+aS'mov REG REG;'
+p1911
+aS'mov REG DISPL;'
+p1912
+aS'mov REG DISPL;'
+p1913
+aS'mov REG REG;'
+p1914
+aS'mov DISPL REG;'
+p1915
+aS'mov REG REG;'
+p1916
+aS'movzx REG REG;'
+p1917
+aS'movzx REG REG;'
+p1918
+aS'mov REG DISPL;'
+p1919
+aS'call REG;'
+p1920
+aS'add REG IMM;'
+p1921
+aS'pop REG;'
+p1922
+aS'retn;'
+p1923
+asg29
+Nsg30
+L4205728L
+sg31
+L4205824L
+sg32
+S'wlf_handle_pointer_motion'
+p1924
+sg34
+L4205824L
+sg35
+S'retn'
+p1925
+sbag1
+(g2
+g3
+Ntp1926
+Rp1927
+(dp1928
+g7
+I138
+sg8
+(lp1929
+S'push REG;'
+p1930
+aS'mov REG REG;'
+p1931
+aS'sub REG IMM;'
+p1932
+aS'mov DISPL REG;'
+p1933
+aS'mov DISPL REG;'
+p1934
+aS'mov REG DISPL;'
+p1935
+aS'mov REG DISPL;'
+p1936
+aS'mov DISPL REG;'
+p1937
+aS'mov REG DISPL;'
+p1938
+aS'cmp DISPL IMM;'
+p1939
+aS'jnz NEAR;'
+p1940
+asg29
+Nsg30
+L4205840L
+sg31
+L4205882L
+sg32
+S'wlf_handle_pointer_buttons'
+p1941
+sg34
+L4205887L
+sg35
+S'jnz'
+p1942
+sbag1
+(g2
+g3
+Ntp1943
+Rp1944
+(dp1945
+g7
+I139
+sg8
+(lp1946
+S'mov DISPL IMM;'
+p1947
+aS'jmp NEAR;'
+p1948
+asg29
+Nsg30
+L4205888L
+sg31
+L4205894L
+sg32
+S'wlf_handle_pointer_buttons'
+p1949
+sg34
+L4205898L
+sg35
+S'jmp'
+p1950
+sbag1
+(g2
+g3
+Ntp1951
+Rp1952
+(dp1953
+g7
+I140
+sg8
+(lp1954
+S'mov DISPL IMM;'
+p1955
+aS'mov REG DISPL;'
+p1956
+aS'mov REG DISPL;'
+p1957
+aS'mov REG REG;'
+p1958
+aS'sub REG IMM;'
+p1959
+aS'mov DISPL REG;'
+p1960
+aS'mov DISPL REG;'
+p1961
+aS'jz NEAR;'
+p1962
+asg29
+Nsg30
+L4205899L
+sg31
+L4205926L
+sg32
+S'wlf_handle_pointer_buttons'
+p1963
+sg34
+L4205931L
+sg35
+S'jz'
+p1964
+sbag1
+(g2
+g3
+Ntp1965
+Rp1966
+(dp1967
+g7
+I141
+sg8
+(lp1968
+S'jmp NEAR;'
+p1969
+asg29
+Nsg30
+L4205932L
+sg31
+L4205932L
+sg32
+S'wlf_handle_pointer_buttons'
+p1970
+sg34
+L4205936L
+sg35
+S'jmp'
+p1971
+sbag1
+(g2
+g3
+Ntp1972
+Rp1973
+(dp1974
+g7
+I142
+sg8
+(lp1975
+S'mov REG DISPL;'
+p1976
+aS'sub REG IMM;'
+p1977
+aS'mov DISPL REG;'
+p1978
+aS'jz NEAR;'
+p1979
+asg29
+Nsg30
+L4205937L
+sg31
+L4205948L
+sg32
+S'wlf_handle_pointer_buttons'
+p1980
+sg34
+L4205953L
+sg35
+S'jz'
+p1981
+sbag1
+(g2
+g3
+Ntp1982
+Rp1983
+(dp1984
+g7
+I143
+sg8
+(lp1985
+S'jmp NEAR;'
+p1986
+asg29
+Nsg30
+L4205954L
+sg31
+L4205954L
+sg32
+S'wlf_handle_pointer_buttons'
+p1987
+sg34
+L4205958L
+sg35
+S'jmp'
+p1988
+sbag1
+(g2
+g3
+Ntp1989
+Rp1990
+(dp1991
+g7
+I144
+sg8
+(lp1992
+S'mov REG DISPL;'
+p1993
+aS'sub REG IMM;'
+p1994
+aS'mov DISPL REG;'
+p1995
+aS'jnz NEAR;'
+p1996
+asg29
+Nsg30
+L4205959L
+sg31
+L4205970L
+sg32
+S'wlf_handle_pointer_buttons'
+p1997
+sg34
+L4205975L
+sg35
+S'jnz'
+p1998
+sbag1
+(g2
+g3
+Ntp1999
+Rp2000
+(dp2001
+g7
+I145
+sg8
+(lp2002
+S'jmp NEAR;'
+p2003
+asg29
+Nsg30
+L4205976L
+sg31
+L4205976L
+sg32
+S'wlf_handle_pointer_buttons'
+p2004
+sg34
+L4205980L
+sg35
+S'jmp'
+p2005
+sbag1
+(g2
+g3
+Ntp2006
+Rp2007
+(dp2008
+g7
+I146
+sg8
+(lp2009
+S'movzx REG DISPL;'
+p2010
+aS'or REG IMM;'
+p2011
+aS'mov REG REG;'
+p2012
+aS'mov DISPL REG;'
+p2013
+aS'jmp NEAR;'
+p2014
+asg29
+Nsg30
+L4205981L
+sg31
+L4205997L
+sg32
+S'wlf_handle_pointer_buttons'
+p2015
+sg34
+L4206001L
+sg35
+S'jmp'
+p2016
+sbag1
+(g2
+g3
+Ntp2017
+Rp2018
+(dp2019
+g7
+I147
+sg8
+(lp2020
+S'movzx REG DISPL;'
+p2021
+aS'or REG IMM;'
+p2022
+aS'mov REG REG;'
+p2023
+aS'mov DISPL REG;'
+p2024
+aS'jmp NEAR;'
+p2025
+asg29
+Nsg30
+L4206002L
+sg31
+L4206018L
+sg32
+S'wlf_handle_pointer_buttons'
+p2026
+sg34
+L4206022L
+sg35
+S'jmp'
+p2027
+sbag1
+(g2
+g3
+Ntp2028
+Rp2029
+(dp2030
+g7
+I148
+sg8
+(lp2031
+S'movzx REG DISPL;'
+p2032
+aS'or REG IMM;'
+p2033
+aS'mov REG REG;'
+p2034
+aS'mov DISPL REG;'
+p2035
+aS'jmp NEAR;'
+p2036
+asg29
+Nsg30
+L4206023L
+sg31
+L4206039L
+sg32
+S'wlf_handle_pointer_buttons'
+p2037
+sg34
+L4206043L
+sg35
+S'jmp'
+p2038
+sbag1
+(g2
+g3
+Ntp2039
+Rp2040
+(dp2041
+g7
+I149
+sg8
+(lp2042
+S'mov DISPL IMM;'
+p2043
+aS'jmp NEAR;'
+p2044
+asg29
+Nsg30
+L4206044L
+sg31
+L4206051L
+sg32
+S'wlf_handle_pointer_buttons'
+p2045
+sg34
+L4206055L
+sg35
+S'jmp'
+p2046
+sbag1
+(g2
+g3
+Ntp2047
+Rp2048
+(dp2049
+g7
+I150
+sg8
+(lp2050
+S'mov REG DISPL;'
+p2051
+aS'mov REG DISPL;'
+p2052
+aS'mov REG DISPL;'
+p2053
+aS'mov REG DISPL;'
+p2054
+aS'mov REG DISPL;'
+p2055
+aS'mov REG DISPL;'
+p2056
+aS'mov REG REG;'
+p2057
+aS'mov REG DISPL;'
+p2058
+aS'mov REG DISPL;'
+p2059
+aS'mov REG REG;'
+p2060
+aS'movzx REG REG;'
+p2061
+aS'movzx REG REG;'
+p2062
+aS'movzx REG REG;'
+p2063
+aS'call REG;'
+p2064
+aS'mov DISPL REG;'
+p2065
+aS'mov REG DISPL;'
+p2066
+aS'add REG IMM;'
+p2067
+aS'pop REG;'
+p2068
+aS'retn;'
+p2069
+asg29
+Nsg30
+L4206056L
+sg31
+L4206118L
+sg32
+S'wlf_handle_pointer_buttons'
+p2070
+sg34
+L4206118L
+sg35
+S'retn'
+p2071
+sbag1
+(g2
+g3
+Ntp2072
+Rp2073
+(dp2074
+g7
+I151
+sg8
+(lp2075
+S'push REG;'
+p2076
+aS'mov REG REG;'
+p2077
+aS'sub REG IMM;'
+p2078
+aS'mov DISPL REG;'
+p2079
+aS'mov DISPL REG;'
+p2080
+aS'mov REG DISPL;'
+p2081
+aS'mov REG DISPL;'
+p2082
+aS'mov DISPL REG;'
+p2083
+aS'mov DISPL IMM;'
+p2084
+aS'mov REG DISPL;'
+p2085
+aS'cmp DISPL IMM;'
+p2086
+aS'jnz NEAR;'
+p2087
+asg29
+Nsg30
+L4206128L
+sg31
+L4206176L
+sg32
+S'wlf_handle_pointer_axis'
+p2088
+sg34
+L4206181L
+sg35
+S'jnz'
+p2089
+sbag1
+(g2
+g3
+Ntp2090
+Rp2091
+(dp2092
+g7
+I152
+sg8
+(lp2093
+S'mov REG DISPL;'
+p2094
+aS'mov REG DISPL;'
+p2095
+aS'call NEAR;'
+p2096
+aS'mov DISPL REG;'
+p2097
+aS'cmp DISPL IMM;'
+p2098
+aS'jge NEAR;'
+p2099
+asg29
+Nsg30
+L4206182L
+sg31
+L4206204L
+sg32
+S'wlf_handle_pointer_axis'
+p2100
+sg34
+L4206209L
+sg35
+S'jge'
+p2101
+sbag1
+(g2
+g3
+Ntp2102
+Rp2103
+(dp2104
+g7
+I153
+sg8
+(lp2105
+S'movzx REG DISPL;'
+p2106
+aS'or REG IMM;'
+p2107
+aS'mov REG REG;'
+p2108
+aS'mov DISPL REG;'
+p2109
+aS'jmp NEAR;'
+p2110
+asg29
+Nsg30
+L4206210L
+sg31
+L4206226L
+sg32
+S'wlf_handle_pointer_axis'
+p2111
+sg34
+L4206230L
+sg35
+S'jmp'
+p2112
+sbag1
+(g2
+g3
+Ntp2113
+Rp2114
+(dp2115
+g7
+I154
+sg8
+(lp2116
+S'movzx REG DISPL;'
+p2117
+aS'or REG IMM;'
+p2118
+aS'mov REG REG;'
+p2119
+aS'mov DISPL REG;'
+p2120
+aS'jmp NEAR;'
+p2121
+asg29
+Nsg30
+L4206231L
+sg31
+L4206247L
+sg32
+S'wlf_handle_pointer_axis'
+p2122
+sg34
+L4206251L
+sg35
+S'jmp'
+p2123
+sbag1
+(g2
+g3
+Ntp2124
+Rp2125
+(dp2126
+g7
+I155
+sg8
+(lp2127
+S'mov REG DISPL;'
+p2128
+aS'mov REG DISPL;'
+p2129
+aS'mov REG DISPL;'
+p2130
+aS'mov REG DISPL;'
+p2131
+aS'mov REG DISPL;'
+p2132
+aS'mov REG DISPL;'
+p2133
+aS'mov REG REG;'
+p2134
+aS'mov REG DISPL;'
+p2135
+aS'mov REG DISPL;'
+p2136
+aS'mov REG REG;'
+p2137
+aS'movzx REG REG;'
+p2138
+aS'movzx REG REG;'
+p2139
+aS'movzx REG REG;'
+p2140
+aS'call REG;'
+p2141
+aS'add REG IMM;'
+p2142
+aS'pop REG;'
+p2143
+aS'retn;'
+p2144
+asg29
+Nsg30
+L4206252L
+sg31
+L4206308L
+sg32
+S'wlf_handle_pointer_axis'
+p2145
+sg34
+L4206308L
+sg35
+S'retn'
+p2146
+sbag1
+(g2
+g3
+Ntp2147
+Rp2148
+(dp2149
+g7
+I156
+sg8
+(lp2150
+S'push REG;'
+p2151
+aS'mov REG REG;'
+p2152
+aS'mov REG IMM;'
+p2153
+aS'mov DISPL REG;'
+p2154
+aS'mov REG DISPL;'
+p2155
+aS'mov DISPL REG;'
+p2156
+aS'mov REG REG;'
+p2157
+aS'cdq;'
+p2158
+aS'mov REG DISPL;'
+p2159
+aS'idiv REG;'
+p2160
+aS'pop REG;'
+p2161
+aS'retn;'
+p2162
+asg29
+Nsg30
+L4206320L
+sg31
+L4206347L
+sg32
+S'wl_fixed_to_int'
+p2163
+sg34
+L4206347L
+sg35
+S'retn'
+p2164
+sbag1
+(g2
+g3
+Ntp2165
+Rp2166
+(dp2167
+g7
+I157
+sg8
+(lp2168
+S'push REG;'
+p2169
+aS'mov REG REG;'
+p2170
+aS'sub REG IMM;'
+p2171
+aS'mov DISPL REG;'
+p2172
+aS'mov DISPL REG;'
+p2173
+aS'mov REG DISPL;'
+p2174
+aS'mov REG DISPL;'
+p2175
+aS'mov DISPL REG;'
+p2176
+aS'mov REG DISPL;'
+p2177
+aS'mov REG DISPL;'
+p2178
+aS'mov DISPL REG;'
+p2179
+aS'cmp DISPL IMM;'
+p2180
+aS'jnz NEAR;'
+p2181
+asg29
+Nsg30
+L4206352L
+sg31
+L4206400L
+sg32
+S'wlf_handle_key'
+p2182
+sg34
+L4206405L
+sg35
+S'jnz'
+p2183
+sbag1
+(g2
+g3
+Ntp2184
+Rp2185
+(dp2186
+g7
+I158
+sg8
+(lp2187
+S'mov DISPL IMM;'
+p2188
+aS'jmp NEAR;'
+p2189
+asg29
+Nsg30
+L4206406L
+sg31
+L4206413L
+sg32
+S'wlf_handle_key'
+p2190
+sg34
+L4206417L
+sg35
+S'jmp'
+p2191
+sbag1
+(g2
+g3
+Ntp2192
+Rp2193
+(dp2194
+g7
+I159
+sg8
+(lp2195
+S'mov REG DISPL;'
+p2196
+aS'mov REG DISPL;'
+p2197
+aS'mov REG DISPL;'
+p2198
+aS'and REG IMM;'
+p2199
+aS'movzx REG REG;'
+p2200
+aS'mov REG DISPL;'
+p2201
+aS'call NEAR;'
+p2202
+aS'mov DISPL REG;'
+p2203
+aS'mov REG DISPL;'
+p2204
+aS'add REG IMM;'
+p2205
+aS'pop REG;'
+p2206
+aS'retn;'
+p2207
+asg29
+Nsg30
+L4206418L
+sg31
+L4206454L
+sg32
+S'wlf_handle_key'
+p2208
+sg34
+L4206454L
+sg35
+S'retn'
+p2209
+sbag1
+(g2
+g3
+Ntp2210
+Rp2211
+(dp2212
+g7
+I160
+sg8
+(lp2213
+S'push REG;'
+p2214
+aS'mov REG REG;'
+p2215
+aS'sub REG IMM;'
+p2216
+aS'xor REG REG;'
+p2217
+aS'mov DISPL REG;'
+p2218
+aS'mov DISPL REG;'
+p2219
+aS'mov REG DISPL;'
+p2220
+aS'mov REG DISPL;'
+p2221
+aS'mov DISPL REG;'
+p2222
+aS'mov REG DISPL;'
+p2223
+aS'mov REG DISPL;'
+p2224
+aS'mov REG DISPL;'
+p2225
+aS'mov DISPL REG;'
+p2226
+aS'mov REG REG;'
+p2227
+aS'mov REG DISPL;'
+p2228
+aS'call REG;'
+p2229
+aS'xor REG REG;'
+p2230
+aS'mov REG REG;'
+p2231
+aS'cmp REG IMM;'
+p2232
+aS'mov DISPL REG;'
+p2233
+aS'jz NEAR;'
+p2234
+asg29
+Nsg30
+L4206464L
+sg31
+L4206534L
+sg32
+S'wlf_keyboard_enter'
+p2235
+sg34
+L4206539L
+sg35
+S'jz'
+p2236
+sbag1
+(g2
+g3
+Ntp2237
+Rp2238
+(dp2239
+g7
+I161
+sg8
+(lp2240
+S'mov REG IMM;'
+p2241
+aS'xor REG REG;'
+p2242
+aS'mov REG DISPL;'
+p2243
+aS'mov REG DISPL;'
+p2244
+aS'mov REG DISPL;'
+p2245
+aS'mov REG REG;'
+p2246
+aS'mov DISPL REG;'
+p2247
+aS'mov REG REG;'
+p2248
+aS'mov REG DISPL;'
+p2249
+aS'call REG;'
+p2250
+aS'cmp REG IMM;'
+p2251
+aS'setnz REG;'
+p2252
+aS'mov DISPL REG;'
+p2253
+aS'mov REG DISPL;'
+p2254
+aS'and REG IMM;'
+p2255
+aS'movzx REG REG;'
+p2256
+aS'add REG IMM;'
+p2257
+aS'pop REG;'
+p2258
+aS'retn;'
+p2259
+asg29
+Nsg30
+L4206540L
+sg31
+L4206600L
+sg32
+S'wlf_keyboard_enter'
+p2260
+sg34
+L4206600L
+sg35
+S'retn'
+p2261
+sbag1
+(g2
+g3
+Ntp2262
+Rp2263
+(dp2264
+g7
+I162
+sg8
+(lp2265
+S'push REG;'
+p2266
+aS'mov REG REG;'
+p2267
+aS'sub REG IMM;'
+p2268
+aS'mov DISPL REG;'
+p2269
+aS'mov DISPL REG;'
+p2270
+aS'mov REG DISPL;'
+p2271
+aS'mov DISPL REG;'
+p2272
+aS'mov REG DISPL;'
+p2273
+aS'mov REG DISPL;'
+p2274
+aS'mov DISPL REG;'
+p2275
+aS'mov REG DISPL;'
+p2276
+aS'mov REG DISPL;'
+p2277
+aS'lea REG MEM;'
+p2278
+aS'call NEAR;'
+p2279
+aS'cmp REG IMM;'
+p2280
+aS'jnz NEAR;'
+p2281
+asg29
+Nsg30
+L4206608L
+sg31
+L4206672L
+sg32
+S'wlf_OnChannelConnectedEventHandler'
+p2282
+sg34
+L4206677L
+sg35
+S'jnz'
+p2283
+sbag1
+(g2
+g3
+Ntp2284
+Rp2285
+(dp2286
+g7
+I163
+sg8
+(lp2287
+S'mov REG DISPL;'
+p2288
+aS'mov REG DISPL;'
+p2289
+aS'mov REG DISPL;'
+p2290
+aS'mov DISPL REG;'
+p2291
+aS'jmp NEAR;'
+p2292
+asg29
+Nsg30
+L4206678L
+sg31
+L4206697L
+sg32
+S'wlf_OnChannelConnectedEventHandler'
+p2293
+sg34
+L4206701L
+sg35
+S'jmp'
+p2294
+sbag1
+(g2
+g3
+Ntp2295
+Rp2296
+(dp2297
+g7
+I164
+sg8
+(lp2298
+S'mov REG DISPL;'
+p2299
+aS'mov REG DISPL;'
+p2300
+aS'lea REG MEM;'
+p2301
+aS'call NEAR;'
+p2302
+aS'cmp REG IMM;'
+p2303
+aS'jnz NEAR;'
+p2304
+asg29
+Nsg30
+L4206702L
+sg31
+L4206727L
+sg32
+S'wlf_OnChannelConnectedEventHandler'
+p2305
+sg34
+L4206732L
+sg35
+S'jnz'
+p2306
+sbag1
+(g2
+g3
+Ntp2307
+Rp2308
+(dp2309
+g7
+I165
+sg8
+(lp2310
+S'jmp NEAR;'
+p2311
+asg29
+Nsg30
+L4206733L
+sg31
+L4206733L
+sg32
+S'wlf_OnChannelConnectedEventHandler'
+p2312
+sg34
+L4206737L
+sg35
+S'jmp'
+p2313
+sbag1
+(g2
+g3
+Ntp2314
+Rp2315
+(dp2316
+g7
+I166
+sg8
+(lp2317
+S'mov REG DISPL;'
+p2318
+aS'mov REG DISPL;'
+p2319
+aS'lea REG MEM;'
+p2320
+aS'call NEAR;'
+p2321
+aS'cmp REG IMM;'
+p2322
+aS'jnz NEAR;'
+p2323
+asg29
+Nsg30
+L4206738L
+sg31
+L4206763L
+sg32
+S'wlf_OnChannelConnectedEventHandler'
+p2324
+sg34
+L4206768L
+sg35
+S'jnz'
+p2325
+sbag1
+(g2
+g3
+Ntp2326
+Rp2327
+(dp2328
+g7
+I167
+sg8
+(lp2329
+S'mov REG DISPL;'
+p2330
+aS'cmp DISPL IMM;'
+p2331
+aS'jz NEAR;'
+p2332
+asg29
+Nsg30
+L4206769L
+sg31
+L4206783L
+sg32
+S'wlf_OnChannelConnectedEventHandler'
+p2333
+sg34
+L4206788L
+sg35
+S'jz'
+p2334
+sbag1
+(g2
+g3
+Ntp2335
+Rp2336
+(dp2337
+g7
+I168
+sg8
+(lp2338
+S'mov REG DISPL;'
+p2339
+aS'mov REG DISPL;'
+p2340
+aS'mov REG DISPL;'
+p2341
+aS'mov REG DISPL;'
+p2342
+aS'mov REG REG;'
+p2343
+aS'call NEAR;'
+p2344
+aS'jmp NEAR;'
+p2345
+asg29
+Nsg30
+L4206789L
+sg31
+L4206816L
+sg32
+S'wlf_OnChannelConnectedEventHandler'
+p2346
+sg34
+L4206820L
+sg35
+S'jmp'
+p2347
+sbag1
+(g2
+g3
+Ntp2348
+Rp2349
+(dp2350
+g7
+I169
+sg8
+(lp2351
+S'mov REG DISPL;'
+p2352
+aS'mov REG DISPL;'
+p2353
+aS'lea REG MEM;'
+p2354
+aS'call NEAR;'
+p2355
+aS'cmp REG IMM;'
+p2356
+aS'jnz NEAR;'
+p2357
+asg29
+Nsg30
+L4206821L
+sg31
+L4206846L
+sg32
+S'wlf_OnChannelConnectedEventHandler'
+p2358
+sg34
+L4206851L
+sg35
+S'jnz'
+p2359
+sbag1
+(g2
+g3
+Ntp2360
+Rp2361
+(dp2362
+g7
+I170
+sg8
+(lp2363
+S'jmp NEAR;'
+p2364
+asg29
+Nsg30
+L4206852L
+sg31
+L4206852L
+sg32
+S'wlf_OnChannelConnectedEventHandler'
+p2365
+sg34
+L4206856L
+sg35
+S'jmp'
+p2366
+sbag1
+(g2
+g3
+Ntp2367
+Rp2368
+(dp2369
+g7
+I171
+sg8
+(lp2370
+S'mov REG DISPL;'
+p2371
+aS'mov REG DISPL;'
+p2372
+aS'lea REG MEM;'
+p2373
+aS'call NEAR;'
+p2374
+aS'cmp REG IMM;'
+p2375
+aS'jnz NEAR;'
+p2376
+asg29
+Nsg30
+L4206857L
+sg31
+L4206882L
+sg32
+S'wlf_OnChannelConnectedEventHandler'
+p2377
+sg34
+L4206887L
+sg35
+S'jnz'
+p2378
+sbag1
+(g2
+g3
+Ntp2379
+Rp2380
+(dp2381
+g7
+I172
+sg8
+(lp2382
+S'jmp NEAR;'
+p2383
+asg29
+Nsg30
+L4206888L
+sg31
+L4206888L
+sg32
+S'wlf_OnChannelConnectedEventHandler'
+p2384
+sg34
+L4206892L
+sg35
+S'jmp'
+p2385
+sbag1
+(g2
+g3
+Ntp2386
+Rp2387
+(dp2388
+g7
+I173
+sg8
+(lp2389
+S'mov REG DISPL;'
+p2390
+aS'mov REG DISPL;'
+p2391
+aS'lea REG MEM;'
+p2392
+aS'call NEAR;'
+p2393
+aS'cmp REG IMM;'
+p2394
+aS'jnz NEAR;'
+p2395
+asg29
+Nsg30
+L4206893L
+sg31
+L4206918L
+sg32
+S'wlf_OnChannelConnectedEventHandler'
+p2396
+sg34
+L4206923L
+sg35
+S'jnz'
+p2397
+sbag1
+(g2
+g3
+Ntp2398
+Rp2399
+(dp2400
+g7
+I174
+sg8
+(lp2401
+S'mov REG DISPL;'
+p2402
+aS'mov REG DISPL;'
+p2403
+aS'mov REG DISPL;'
+p2404
+aS'mov REG REG;'
+p2405
+aS'call NEAR;'
+p2406
+aS'jmp NEAR;'
+p2407
+asg29
+Nsg30
+L4206924L
+sg31
+L4206944L
+sg32
+S'wlf_OnChannelConnectedEventHandler'
+p2408
+sg34
+L4206948L
+sg35
+S'jmp'
+p2409
+sbag1
+(g2
+g3
+Ntp2410
+Rp2411
+(dp2412
+g7
+I175
+sg8
+(lp2413
+S'jmp NEAR;'
+p2414
+asg29
+Nsg30
+L4206949L
+sg31
+L4206949L
+sg32
+S'wlf_OnChannelConnectedEventHandler'
+p2415
+sg34
+L4206953L
+sg35
+S'jmp'
+p2416
+sbag1
+(g2
+g3
+Ntp2417
+Rp2418
+(dp2419
+g7
+I176
+sg8
+(lp2420
+S'jmp NEAR;'
+p2421
+asg29
+Nsg30
+L4206954L
+sg31
+L4206954L
+sg32
+S'wlf_OnChannelConnectedEventHandler'
+p2422
+sg34
+L4206958L
+sg35
+S'jmp'
+p2423
+sbag1
+(g2
+g3
+Ntp2424
+Rp2425
+(dp2426
+g7
+I177
+sg8
+(lp2427
+S'jmp NEAR;'
+p2428
+asg29
+Nsg30
+L4206959L
+sg31
+L4206959L
+sg32
+S'wlf_OnChannelConnectedEventHandler'
+p2429
+sg34
+L4206963L
+sg35
+S'jmp'
+p2430
+sbag1
+(g2
+g3
+Ntp2431
+Rp2432
+(dp2433
+g7
+I178
+sg8
+(lp2434
+S'jmp NEAR;'
+p2435
+asg29
+Nsg30
+L4206964L
+sg31
+L4206964L
+sg32
+S'wlf_OnChannelConnectedEventHandler'
+p2436
+sg34
+L4206968L
+sg35
+S'jmp'
+p2437
+sbag1
+(g2
+g3
+Ntp2438
+Rp2439
+(dp2440
+g7
+I179
+sg8
+(lp2441
+S'add REG IMM;'
+p2442
+aS'pop REG;'
+p2443
+aS'retn;'
+p2444
+asg29
+Nsg30
+L4206969L
+sg31
+L4206974L
+sg32
+S'wlf_OnChannelConnectedEventHandler'
+p2445
+sg34
+L4206974L
+sg35
+S'retn'
+p2446
+sbag1
+(g2
+g3
+Ntp2447
+Rp2448
+(dp2449
+g7
+I180
+sg8
+(lp2450
+S'push REG;'
+p2451
+aS'mov REG REG;'
+p2452
+aS'mov DISPL REG;'
+p2453
+aS'mov DISPL REG;'
+p2454
+aS'cmp DISPL IMM;'
+p2455
+aS'jnz NEAR;'
+p2456
+asg29
+Nsg30
+L4206976L
+sg31
+L4206996L
+sg32
+S'wlf_encomsp_init'
+p2457
+sg34
+L4207001L
+sg35
+S'jnz'
+p2458
+sbag1
+(g2
+g3
+Ntp2459
+Rp2460
+(dp2461
+g7
+I181
+sg8
+(lp2462
+S'jmp NEAR;'
+p2463
+asg29
+Nsg30
+L4207002L
+sg31
+L4207002L
+sg32
+S'wlf_encomsp_init'
+p2464
+sg34
+L4207006L
+sg35
+S'jmp'
+p2465
+sbag1
+(g2
+g3
+Ntp2466
+Rp2467
+(dp2468
+g7
+I182
+sg8
+(lp2469
+S'lea REG MEM;'
+p2470
+aS'mov REG DISPL;'
+p2471
+aS'mov REG DISPL;'
+p2472
+aS'mov DISPL REG;'
+p2473
+aS'mov REG DISPL;'
+p2474
+aS'mov REG DISPL;'
+p2475
+aS'mov DISPL REG;'
+p2476
+aS'mov REG DISPL;'
+p2477
+aS'mov DISPL REG;'
+p2478
+aS'pop REG;'
+p2479
+aS'retn;'
+p2480
+asg29
+Nsg30
+L4207007L
+sg31
+L4207050L
+sg32
+S'wlf_encomsp_init'
+p2481
+sg34
+L4207050L
+sg35
+S'retn'
+p2482
+sbag1
+(g2
+g3
+Ntp2483
+Rp2484
+(dp2485
+g7
+I183
+sg8
+(lp2486
+S'push REG;'
+p2487
+aS'mov REG REG;'
+p2488
+aS'sub REG IMM;'
+p2489
+aS'mov DISPL REG;'
+p2490
+aS'mov DISPL REG;'
+p2491
+aS'mov REG DISPL;'
+p2492
+aS'mov DISPL REG;'
+p2493
+aS'mov REG DISPL;'
+p2494
+aS'mov REG DISPL;'
+p2495
+aS'mov DISPL REG;'
+p2496
+aS'mov REG DISPL;'
+p2497
+aS'mov REG DISPL;'
+p2498
+aS'lea REG MEM;'
+p2499
+aS'call NEAR;'
+p2500
+aS'cmp REG IMM;'
+p2501
+aS'jnz NEAR;'
+p2502
+asg29
+Nsg30
+L4207056L
+sg31
+L4207120L
+sg32
+S'wlf_OnChannelDisconnectedEventHandler'
+p2503
+sg34
+L4207125L
+sg35
+S'jnz'
+p2504
+sbag1
+(g2
+g3
+Ntp2505
+Rp2506
+(dp2507
+g7
+I184
+sg8
+(lp2508
+S'mov REG DISPL;'
+p2509
+aS'mov DISPL IMM;'
+p2510
+aS'jmp NEAR;'
+p2511
+asg29
+Nsg30
+L4207126L
+sg31
+L4207141L
+sg32
+S'wlf_OnChannelDisconnectedEventHandler'
+p2512
+sg34
+L4207145L
+sg35
+S'jmp'
+p2513
+sbag1
+(g2
+g3
+Ntp2514
+Rp2515
+(dp2516
+g7
+I185
+sg8
+(lp2517
+S'mov REG DISPL;'
+p2518
+aS'mov REG DISPL;'
+p2519
+aS'lea REG MEM;'
+p2520
+aS'call NEAR;'
+p2521
+aS'cmp REG IMM;'
+p2522
+aS'jnz NEAR;'
+p2523
+asg29
+Nsg30
+L4207146L
+sg31
+L4207171L
+sg32
+S'wlf_OnChannelDisconnectedEventHandler'
+p2524
+sg34
+L4207176L
+sg35
+S'jnz'
+p2525
+sbag1
+(g2
+g3
+Ntp2526
+Rp2527
+(dp2528
+g7
+I186
+sg8
+(lp2529
+S'jmp NEAR;'
+p2530
+asg29
+Nsg30
+L4207177L
+sg31
+L4207177L
+sg32
+S'wlf_OnChannelDisconnectedEventHandler'
+p2531
+sg34
+L4207181L
+sg35
+S'jmp'
+p2532
+sbag1
+(g2
+g3
+Ntp2533
+Rp2534
+(dp2535
+g7
+I187
+sg8
+(lp2536
+S'mov REG DISPL;'
+p2537
+aS'mov REG DISPL;'
+p2538
+aS'lea REG MEM;'
+p2539
+aS'call NEAR;'
+p2540
+aS'cmp REG IMM;'
+p2541
+aS'jnz NEAR;'
+p2542
+asg29
+Nsg30
+L4207182L
+sg31
+L4207207L
+sg32
+S'wlf_OnChannelDisconnectedEventHandler'
+p2543
+sg34
+L4207212L
+sg35
+S'jnz'
+p2544
+sbag1
+(g2
+g3
+Ntp2545
+Rp2546
+(dp2547
+g7
+I188
+sg8
+(lp2548
+S'mov REG DISPL;'
+p2549
+aS'cmp DISPL IMM;'
+p2550
+aS'jz NEAR;'
+p2551
+asg29
+Nsg30
+L4207213L
+sg31
+L4207227L
+sg32
+S'wlf_OnChannelDisconnectedEventHandler'
+p2552
+sg34
+L4207232L
+sg35
+S'jz'
+p2553
+sbag1
+(g2
+g3
+Ntp2554
+Rp2555
+(dp2556
+g7
+I189
+sg8
+(lp2557
+S'mov REG DISPL;'
+p2558
+aS'mov REG DISPL;'
+p2559
+aS'mov REG DISPL;'
+p2560
+aS'mov REG DISPL;'
+p2561
+aS'mov REG REG;'
+p2562
+aS'call NEAR;'
+p2563
+aS'jmp NEAR;'
+p2564
+asg29
+Nsg30
+L4207233L
+sg31
+L4207260L
+sg32
+S'wlf_OnChannelDisconnectedEventHandler'
+p2565
+sg34
+L4207264L
+sg35
+S'jmp'
+p2566
+sbag1
+(g2
+g3
+Ntp2567
+Rp2568
+(dp2569
+g7
+I190
+sg8
+(lp2570
+S'mov REG DISPL;'
+p2571
+aS'mov REG DISPL;'
+p2572
+aS'lea REG MEM;'
+p2573
+aS'call NEAR;'
+p2574
+aS'cmp REG IMM;'
+p2575
+aS'jnz NEAR;'
+p2576
+asg29
+Nsg30
+L4207265L
+sg31
+L4207290L
+sg32
+S'wlf_OnChannelDisconnectedEventHandler'
+p2577
+sg34
+L4207295L
+sg35
+S'jnz'
+p2578
+sbag1
+(g2
+g3
+Ntp2579
+Rp2580
+(dp2581
+g7
+I191
+sg8
+(lp2582
+S'jmp NEAR;'
+p2583
+asg29
+Nsg30
+L4207296L
+sg31
+L4207296L
+sg32
+S'wlf_OnChannelDisconnectedEventHandler'
+p2584
+sg34
+L4207300L
+sg35
+S'jmp'
+p2585
+sbag1
+(g2
+g3
+Ntp2586
+Rp2587
+(dp2588
+g7
+I192
+sg8
+(lp2589
+S'mov REG DISPL;'
+p2590
+aS'mov REG DISPL;'
+p2591
+aS'lea REG MEM;'
+p2592
+aS'call NEAR;'
+p2593
+aS'cmp REG IMM;'
+p2594
+aS'jnz NEAR;'
+p2595
+asg29
+Nsg30
+L4207301L
+sg31
+L4207326L
+sg32
+S'wlf_OnChannelDisconnectedEventHandler'
+p2596
+sg34
+L4207331L
+sg35
+S'jnz'
+p2597
+sbag1
+(g2
+g3
+Ntp2598
+Rp2599
+(dp2600
+g7
+I193
+sg8
+(lp2601
+S'jmp NEAR;'
+p2602
+asg29
+Nsg30
+L4207332L
+sg31
+L4207332L
+sg32
+S'wlf_OnChannelDisconnectedEventHandler'
+p2603
+sg34
+L4207336L
+sg35
+S'jmp'
+p2604
+sbag1
+(g2
+g3
+Ntp2605
+Rp2606
+(dp2607
+g7
+I194
+sg8
+(lp2608
+S'mov REG DISPL;'
+p2609
+aS'mov REG DISPL;'
+p2610
+aS'lea REG MEM;'
+p2611
+aS'call NEAR;'
+p2612
+aS'cmp REG IMM;'
+p2613
+aS'jnz NEAR;'
+p2614
+asg29
+Nsg30
+L4207337L
+sg31
+L4207362L
+sg32
+S'wlf_OnChannelDisconnectedEventHandler'
+p2615
+sg34
+L4207367L
+sg35
+S'jnz'
+p2616
+sbag1
+(g2
+g3
+Ntp2617
+Rp2618
+(dp2619
+g7
+I195
+sg8
+(lp2620
+S'mov REG DISPL;'
+p2621
+aS'mov REG DISPL;'
+p2622
+aS'mov REG DISPL;'
+p2623
+aS'mov REG REG;'
+p2624
+aS'call NEAR;'
+p2625
+aS'jmp NEAR;'
+p2626
+asg29
+Nsg30
+L4207368L
+sg31
+L4207388L
+sg32
+S'wlf_OnChannelDisconnectedEventHandler'
+p2627
+sg34
+L4207392L
+sg35
+S'jmp'
+p2628
+sbag1
+(g2
+g3
+Ntp2629
+Rp2630
+(dp2631
+g7
+I196
+sg8
+(lp2632
+S'jmp NEAR;'
+p2633
+asg29
+Nsg30
+L4207393L
+sg31
+L4207393L
+sg32
+S'wlf_OnChannelDisconnectedEventHandler'
+p2634
+sg34
+L4207397L
+sg35
+S'jmp'
+p2635
+sbag1
+(g2
+g3
+Ntp2636
+Rp2637
+(dp2638
+g7
+I197
+sg8
+(lp2639
+S'jmp NEAR;'
+p2640
+asg29
+Nsg30
+L4207398L
+sg31
+L4207398L
+sg32
+S'wlf_OnChannelDisconnectedEventHandler'
+p2641
+sg34
+L4207402L
+sg35
+S'jmp'
+p2642
+sbag1
+(g2
+g3
+Ntp2643
+Rp2644
+(dp2645
+g7
+I198
+sg8
+(lp2646
+S'jmp NEAR;'
+p2647
+asg29
+Nsg30
+L4207403L
+sg31
+L4207403L
+sg32
+S'wlf_OnChannelDisconnectedEventHandler'
+p2648
+sg34
+L4207407L
+sg35
+S'jmp'
+p2649
+sbag1
+(g2
+g3
+Ntp2650
+Rp2651
+(dp2652
+g7
+I199
+sg8
+(lp2653
+S'jmp NEAR;'
+p2654
+asg29
+Nsg30
+L4207408L
+sg31
+L4207408L
+sg32
+S'wlf_OnChannelDisconnectedEventHandler'
+p2655
+sg34
+L4207412L
+sg35
+S'jmp'
+p2656
+sbag1
+(g2
+g3
+Ntp2657
+Rp2658
+(dp2659
+g7
+I200
+sg8
+(lp2660
+S'add REG IMM;'
+p2661
+aS'pop REG;'
+p2662
+aS'retn;'
+p2663
+asg29
+Nsg30
+L4207413L
+sg31
+L4207418L
+sg32
+S'wlf_OnChannelDisconnectedEventHandler'
+p2664
+sg34
+L4207418L
+sg35
+S'retn'
+p2665
+sbag1
+(g2
+g3
+Ntp2666
+Rp2667
+(dp2668
+g7
+I201
+sg8
+(lp2669
+S'push REG;'
+p2670
+aS'mov REG REG;'
+p2671
+aS'mov DISPL REG;'
+p2672
+aS'mov DISPL REG;'
+p2673
+aS'cmp DISPL IMM;'
+p2674
+aS'jnz NEAR;'
+p2675
+asg29
+Nsg30
+L4207424L
+sg31
+L4207444L
+sg32
+S'wlf_encomsp_uninit'
+p2676
+sg34
+L4207449L
+sg35
+S'jnz'
+p2677
+sbag1
+(g2
+g3
+Ntp2678
+Rp2679
+(dp2680
+g7
+I202
+sg8
+(lp2681
+S'jmp NEAR;'
+p2682
+asg29
+Nsg30
+L4207450L
+sg31
+L4207450L
+sg32
+S'wlf_encomsp_uninit'
+p2683
+sg34
+L4207454L
+sg35
+S'jmp'
+p2684
+sbag1
+(g2
+g3
+Ntp2685
+Rp2686
+(dp2687
+g7
+I203
+sg8
+(lp2688
+S'mov REG DISPL;'
+p2689
+aS'mov DISPL IMM;'
+p2690
+aS'pop REG;'
+p2691
+aS'retn;'
+p2692
+asg29
+Nsg30
+L4207455L
+sg31
+L4207471L
+sg32
+S'wlf_encomsp_uninit'
+p2693
+sg34
+L4207471L
+sg35
+S'retn'
+p2694
+sbag1
+(g2
+g3
+Ntp2695
+Rp2696
+(dp2697
+g7
+I204
+sg8
+(lp2698
+S'push REG;'
+p2699
+aS'mov REG REG;'
+p2700
+aS'xor REG REG;'
+p2701
+aS'mov DISPL REG;'
+p2702
+aS'mov DISPL REG;'
+p2703
+aS'pop REG;'
+p2704
+aS'retn;'
+p2705
+asg29
+Nsg30
+L4207472L
+sg31
+L4207487L
+sg32
+S'wlf_encomsp_participant_created'
+p2706
+sg34
+L4207487L
+sg35
+S'retn'
+p2707
+sbag1
+(g2
+g3
+Ntp2708
+Rp2709
+(dp2710
+g7
+I205
+sg8
+(lp2711
+S'push REG;'
+p2712
+aS'push REG;'
+p2713
+aS'mov REG REG;'
+p2714
+aS'push REG;'
+p2715
+aS'push REG;'
+p2716
+aS'lea REG MEM;'
+p2717
+aS'push REG;'
+p2718
+aS'lea REG MEM;'
+p2719
+aS'push REG;'
+p2720
+aS'mov REG REG;'
+p2721
+aS'mov REG REG;'
+p2722
+aS'xor REG REG;'
+p2723
+aS'sub REG REG;'
+p2724
+aS'sub REG IMM;'
+p2725
+aS'sar REG IMM;'
+p2726
+aS'call NEAR;'
+p2727
+aS'test REG REG;'
+p2728
+aS'jz NEAR;'
+p2729
+asg29
+Nsg30
+L4207488L
+sg31
+L4207542L
+sg32
+S'__libc_csu_init'
+p2730
+sg34
+L4207543L
+sg35
+S'jz'
+p2731
+sbag1
+(g2
+g3
+Ntp2732
+Rp2733
+(dp2734
+g7
+I206
+sg8
+(lp2735
+S'nop DISPL;'
+p2736
+aS'mov REG REG;'
+p2737
+aS'mov REG REG;'
+p2738
+aS'mov REG REG;'
+p2739
+aS'call PHRASE;'
+p2740
+aS'add REG IMM;'
+p2741
+aS'cmp REG REG;'
+p2742
+aS'jnz NEAR;'
+p2743
+asg29
+Nsg30
+L4207544L
+sg31
+L4207572L
+sg32
+S'__libc_csu_init'
+p2744
+sg34
+L4207573L
+sg35
+S'jnz'
+p2745
+sbag1
+(g2
+g3
+Ntp2746
+Rp2747
+(dp2748
+g7
+I207
+sg8
+(lp2749
+S'add REG IMM;'
+p2750
+aS'pop REG;'
+p2751
+aS'pop REG;'
+p2752
+aS'pop REG;'
+p2753
+aS'pop REG;'
+p2754
+aS'pop REG;'
+p2755
+aS'pop REG;'
+p2756
+aS'retn;'
+p2757
+asg29
+Nsg30
+L4207574L
+sg31
+L4207588L
+sg32
+S'__libc_csu_init'
+p2758
+sg34
+L4207588L
+sg35
+S'retn'
+p2759
+sbag1
+(g2
+g3
+Ntp2760
+Rp2761
+(dp2762
+g7
+I208
+sg8
+(lp2763
+S'retn;'
+p2764
+asg29
+Nsg30
+L4207600L
+sg31
+L4207600L
+sg32
+S''
+p2765
+sg34
+L4207602L
+sg35
+S'retn'
+p2766
+sba.

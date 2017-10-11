@@ -1,0 +1,1 @@
+./generate_csvs.sh Chimera/ollvm-all/mal/beanstalkd.o0.bcf3.g.elf Chimera/ollvm-all/mal/beanstalkd.o0.bcf3.ann.g.elf
