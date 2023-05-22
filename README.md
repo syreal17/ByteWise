@@ -1,5 +1,6 @@
 # ByteWise
 ![ByteWise](https://chthcs.files.wordpress.com/2017/10/bytewisewhite.png)
+[Paper](https://ieeexplore.ieee.org/document/8301720/)
 
 Recurrent neural network for identifying byte patterns in binaries with Python scripts for munging binaries obfuscated with [OLLVM](https://github.com/syreal17/obfuscator-annotating).
 
